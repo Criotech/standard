@@ -1,0 +1,45 @@
+.email-verification-page {
+	margin-top: 40px;
+	width: 100%;
+	background-image: url("../../images/gray-circles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.email-verification-caption {
+		font-size: 20px;
+		line-height: 37px;
+	}
+
+	.content-wrapper {
+		max-width: 400px;
+		margin: 0 auto;
+		padding: 0 20px;
+
+		.email-verification-title {
+			width: 100%;
+			margin-bottom: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.body-texts {
+			line-height: 19px;
+			color: var(--color-functional-soft-black);
+		}
+
+		.submit-btn {
+			width: 100%;
+			margin-top: 20px;
+			margin-bottom: 80px;
+		}
+	}
+}
+
+.wide-screen .email-verification-page {
+	margin-top: 48px;
+
+	.email-verification-caption {
+		font-size: 28px;
+	}
+}

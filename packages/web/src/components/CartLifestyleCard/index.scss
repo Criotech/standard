@@ -1,0 +1,78 @@
+.cart-lifestyle-card {
+	transition: 0.3s;
+	border-radius: 15px;
+	height: auto;
+	display: flex;
+
+	.lifestyle-card-details {
+		text-align: left;
+		padding: 6px 16px;
+		width: 60%;
+
+		.coupon-title {
+			color: var(--color-brand-blue-1);
+			margin-bottom: 0;
+			font-size: 14px;
+			width: 160px;
+		}
+
+		.coupon-issuer {
+			color: var(--color-semantic-disabled-grey-3);
+			font-size: 10px;
+			margin-bottom: 0.5em;
+		}
+
+		.coupon-points {
+			color: var(--color-brand-blue-1);
+			font-size: 10px;
+			margin-bottom: 0.5em;
+		}
+
+		.highlighted-value {
+			.value {
+				font-size: 20px;
+			}
+		}
+
+		.title-and-trash-icon {
+			display: flex;
+			gap: 8px;
+		}
+	}
+
+	.cart-lifestyle-card-image {
+		border-radius: 15px;
+		height: 117px;
+		width: 156px;
+	}
+
+	.lifestyle-tag-image {
+		position: relative;
+
+		.lifestyle-tags {
+			position: absolute;
+			top: 1px;
+			right: 5px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+
+			span {
+				margin-top: 4px;
+				width: fit-content;
+			}
+		}
+	}
+
+	.trash-button {
+		background: var(--color-functional-background-white);
+		border: none;
+		height: 24px;
+		width: auto;
+	}
+
+	.quantity-input {
+		gap: 30px;
+		justify-content: flex-start;
+	}
+}

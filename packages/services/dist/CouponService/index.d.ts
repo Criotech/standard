@@ -1,0 +1,11 @@
+import { IAcuvueCouponCheckout } from "./IAcuvueCouponCheckout";
+import { IAcuvueCoupon } from "./IAcuvueCoupon";
+import { ILifestyleCoupon } from "./ILifestyleCoupon";
+import { WalletCoupon } from "./WalletCoupon";
+import { ILifestyleCouponCheckout } from "./ILifestyleCouponCheckout";
+export declare const redeemCoupon: (couponCode: string, sessionToken?: string) => Promise<void>;
+export declare const getUserCoupons: (sessionToken: string) => Promise<WalletCoupon[]>;
+export declare const checkoutAcuvueCoupons: (payload: IAcuvueCouponCheckout, sessionToken?: string) => Promise<void>;
+export declare const getAcuvueCoupons: (sessionToken: string) => Promise<IAcuvueCoupon[]>;
+export declare const getLifestyleCoupons: (sessionToken: string) => Promise<ILifestyleCoupon[]>;
+export declare const checkoutLifestyleCoupons: (payload: ILifestyleCouponCheckout, sessionToken: string) => Promise<void>;

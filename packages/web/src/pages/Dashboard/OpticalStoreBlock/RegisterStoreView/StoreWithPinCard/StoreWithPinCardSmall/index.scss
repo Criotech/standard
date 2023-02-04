@@ -1,0 +1,32 @@
+.store-with-pin-card-small {
+	display: flex;
+	gap: 12px;
+
+	&.highlighted {
+		background-color: var(--color-functional-extra-light-grey);
+	}
+
+	.store {
+		width: 100%;
+
+		.address-section {
+			margin-top: 16px;
+		}
+
+		.store-distance {
+			color: var(--color-functional-dark-grey);
+			margin: 0;
+		}
+
+		.contact-and-select-store {
+			display: flex;
+			align-items: flex-end;
+			margin-top: 16px;
+			justify-content: space-between;
+
+			.select-store-button {
+				margin-left: 28px;
+			}
+		}
+	}
+}

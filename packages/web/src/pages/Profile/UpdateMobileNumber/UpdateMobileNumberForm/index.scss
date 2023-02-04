@@ -1,0 +1,17 @@
+.update-mobile-number-form {
+	.country-code {
+		color: var(--color-functional-soft-black);
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.receive-button,
+	.cancel-button {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.ant-input-group-addon {
+		padding-left: 0;
+	}
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style id="myacuvue-style"></style>
+		<style>
+			.attr a {
+				display: inline;
+				color: #003087;
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="api"></div>
+		<script>
+			function makePasswordToggler(password) {
+				const toggler = document.createElement("span");
+				toggler.className = "eye-slash";
+				var id = password.id + "toggler";
+				toggler.setAttribute("id", id);
+
+				queryAll(".attrEntry")[1].appendChild(toggler);
+
+				function toggle() {
+					if (password.type === "password") {
+						password.type = "text";
+						toggler.className = "eye";
+					} else {
+						password.type = "password";
+						toggler.className = "eye-slash";
+					}
+				}
+				toggler.onclick = toggle;
+			}
+
+			function setUpPasswordTogglers() {
+				var passwordInputs = document.querySelectorAll(
+					"input[type=password]"
+				);
+				let passwordInputContainer = queryAll(".attrEntry")[0];
+				for (var i = 0; i < passwordInputs.length; i++) {
+					makePasswordToggler(passwordInputs[i]);
+				}
+			}
+
+			function navigateToSignIn() {
+				const urlParams = new URLSearchParams(location.search);
+				const url = new URL(urlParams.get("redirect_uri"));
+
+				location.href = url.origin + "/sign-in";
+			}
+
+			function circleAndCheckMarkScaffold(elementId, spanText) {
+				const parentFlexDiv = createElement("DIV");
+				parentFlexDiv.setAttribute("class", "parentFlex");
+				const circleDiv = createElement("DIV");
+				circleDiv.setAttribute("class", "circle");
+				circleDiv.className += " grey-background";
+				circleDiv.id = elementId;
+				const checkMarkDiv = createElement("DIV");
+				checkMarkDiv.setAttribute("class", "checkmark");
+				const paragraphSpan = createElement("span");
+				paragraphSpan.innerHTML = spanText;
+				parentFlexDiv.appendChild(circleDiv);
+				parentFlexDiv.appendChild(paragraphSpan);
+				circleDiv.appendChild(checkMarkDiv);
+				query("#passwordValidationDiv").appendChild(parentFlexDiv);
+			}
+
+			function validatePassword() {
+				let passwordString = query("#newPassword").value;
+				let hasMinimumLength = false;
+				let hasSmallLetter = false;
+				let hasCapitalLetter = false;
+				let hasOneNumber = false;
+				const oneCapitalLetterRegex = new RegExp("[A-Z]");
+				const oneSmallLetterRegex = new RegExp("[a-z]");
+				const oneNumberRegex = new RegExp("[0-9]");
+				if (passwordString.length < 8) {
+					document
+						.querySelector("#minimum-eight-character-div")
+						.classList.add("grey-background");
+					hasMinimumLength = false;
+				} else {
+					document
+						.querySelector("#minimum-eight-character-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#minimum-eight-character-div")
+						.classList.add("green-background");
+					hasMinimumLength = true;
+				}
+				if (!oneCapitalLetterRegex.test(passwordString)) {
+					document
+						.querySelector("#include-one-capital-letter-div")
+						.classList.add("grey-background");
+					hasCapitalLetter = false;
+				} else {
+					document
+						.querySelector("#include-one-capital-letter-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#include-one-capital-letter-div")
+						.classList.add("green-background");
+					hasCapitalLetter = true;
+				}
+				if (!oneSmallLetterRegex.test(passwordString)) {
+					document
+						.querySelector("#include-one-small-letter-div")
+						.classList.add("grey-background");
+					hasSmallLetter = false;
+				} else {
+					document
+						.querySelector("#include-one-small-letter-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#include-one-small-letter-div")
+						.classList.add("green-background");
+					hasSmallLetter = true;
+				}
+				if (!oneNumberRegex.test(passwordString)) {
+					document
+						.querySelector("#include-one-number-div")
+						.classList.add("grey-background");
+					hasOneNumber = false;
+				} else {
+					document
+						.querySelector("#include-one-number-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#include-one-number-div")
+						.classList.add("green-background");
+					hasOneNumber = true;
+				}
+			}
+
+			var isSignUpChangesApplied = false;
+			var pages = {
+				SIGN_UP: {
+					identifier: function () {
+						const passwordInput = query("#newPassword");
+						const emailInput = query("#email");
+
+						const serverErrorMessage = query(
+							"#claimVerificationServerError"
+						);
+
+						return (
+							passwordInput &&
+							passwordInput.style.display !== "none" &&
+							emailInput &&
+							emailInput.style.display !== "none" &&
+							serverErrorMessage &&
+							serverErrorMessage.style.display === "none" &&
+							!isSignUpChangesApplied
+						);
+					},
+					applyChanges: function () {
+						pageView();
+						registerFormEvent("sign_up");
+
+						isSignUpChangesApplied = true;
+
+						query(".heading h1").innerHTML = "建立帳戶";
+						query("label#newPassword_label").innerHTML = "建立密碼";
+						query(".attr ul").className =
+							"create-account-fields-wrapper";
+						query("#email").placeholder = "輸入電郵地址";
+						query("#newPassword").placeholder = "輸入密碼";
+						document.addEventListener(
+							"invalid",
+							(function () {
+								return function (e) {
+									e.preventDefault();
+									query("#newPassword").focus();
+								};
+							})(),
+							true
+						);
+						query("#email").title = "";
+						query("#newPassword").title = "";
+
+						setUpPasswordTogglers();
+
+						const acknowlegementParagraph = getAppendedElement(
+							"p",
+							"acknowlegement-message space-for-button",
+							"當您確定送出上述帳戶申請資料時，您將同意使用該電郵為日後ＭyACUVUE®(網頁版)之帳戶登入名稱及接收會員資訊。"
+						);
+
+						const attributeVerification = query(
+							"#attributeVerification"
+						);
+
+						const attributeList = query("#attributeList");
+
+						attributeList.insertAdjacentElement(
+							"afterend",
+							acknowlegementParagraph
+						);
+
+						let passwordValidationDiv = createElement("DIV");
+						passwordValidationDiv.setAttribute(
+							"id",
+							"passwordValidationDiv"
+						);
+
+						passwordValidationDiv.classList.add("space-for-button");
+						let passwordMustHaveSpan = createElement("SPAN");
+						passwordMustHaveSpan.classList.add("space-for-title");
+						passwordMustHaveSpan.classList.add(
+							"password-matrix-title"
+						);
+						passwordValidationDiv.appendChild(passwordMustHaveSpan);
+						let passwordMustHaveText = createNode("密碼格式:");
+						passwordMustHaveSpan.appendChild(passwordMustHaveText);
+						query("#attributeList").appendChild(
+							passwordValidationDiv
+						);
+
+						circleAndCheckMarkScaffold(
+							"minimum-eight-character-div",
+							"至少8位數字及英文字母"
+						);
+						circleAndCheckMarkScaffold(
+							"include-one-capital-letter-div",
+							"至少一個大寫英文字母"
+						);
+						circleAndCheckMarkScaffold(
+							"include-one-small-letter-div",
+							"至少一個小寫英文字母"
+						);
+						circleAndCheckMarkScaffold(
+							"include-one-number-div",
+							"至少一個數字"
+						);
+
+						document.addEventListener("keyup", validatePassword);
+
+						const inputErrors = queryAll(".error.itemLevel");
+						inputErrors[0].classList.add("error-message");
+						query("#email").insertAdjacentElement(
+							"afterend",
+							inputErrors[0]
+						);
+
+						inputErrors[1].classList.add("error-message");
+						query("#newPassword").insertAdjacentElement(
+							"afterend",
+							inputErrors[1]
+						);
+
+						function displayServerErrorMessage(e) {
+							const serverErrorMessage = query(
+								"#claimVerificationServerError"
+							);
+							serverErrorMessage.setAttribute(
+								"class",
+								"error-message"
+							);
+
+							show(serverErrorMessage);
+							const emailInput = query("#email");
+							emailInput.insertAdjacentElement(
+								"afterend",
+								serverErrorMessage
+							);
+						}
+
+						query("#continue").addEventListener(
+							"click",
+							displayServerErrorMessage
+						);
+
+						document.addEventListener("keypress", function (e) {
+							if (e.key === "Enter") {
+								e.preventDefault();
+								displayServerErrorMessage(e);
+							}
+						});
+						query("#email_label").innerHTML = "電郵";
+					},
+				},
+
+				EMAIL_REGISTERED_ERROR: {
+					identifier: function () {
+						const passwordInput = query("#newPassword");
+						const emailInput = query("#email");
+
+						const serverErrorMessage = query(
+							"#claimVerificationServerError"
+						);
+
+						return (
+							passwordInput &&
+							passwordInput.style.display !== "none" &&
+							emailInput &&
+							emailInput.style.display !== "none" &&
+							serverErrorMessage &&
+							serverErrorMessage.style.display !== "none"
+						);
+					},
+					applyChanges: function () {
+						const serverErrorMessage = query(
+							"#claimVerificationServerError"
+						);
+
+						serverErrorMessage.innerHTML =
+							'此電子郵件是使用已存在的帳戶註冊的。<a onclick="navigateToSignIn();">點擊此處登錄。</a>';
+					},
+				},
+			};
+		</script>
+		<script id="myacuvue-script"></script>
+	</body>
+</html>

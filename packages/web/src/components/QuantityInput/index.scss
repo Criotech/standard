@@ -1,0 +1,27 @@
+.quantity-input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	.quantity-value {
+		text-align: center;
+		font-weight: 700;
+	}
+
+	.quantity-value:disabled {
+		color: var(--color-functional-dark-grey);
+	}
+
+	&.small {
+		.quantity-value {
+			font-size: 16px;
+		}
+	}
+
+	&.medium {
+		.quantity-value {
+			font-size: 20px;
+		}
+	}
+}

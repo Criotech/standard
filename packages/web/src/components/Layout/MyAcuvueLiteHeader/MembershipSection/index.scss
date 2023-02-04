@@ -1,0 +1,38 @@
+.membership-section {
+	display: flex;
+	background-color: #3d3d47;
+	font-size: 14px;
+	height: 72px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	border-right: 0.1px solid #000000;
+
+	a {
+		width: 50%;
+		height: 100%;
+		color: var(--color-functional-background-white);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.sign-in {
+		border-right: 0.2px solid #000000;
+		width: 50%;
+		height: 100% !important;
+		border-radius: unset;
+		color: var(--color-functional-background-white);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 400;
+		background: transparent;
+	}
+
+	.acuvue-btn.acuvue-btn-no-outline:hover:not(:disabled),
+	.acuvue-btn.acuvue-btn-no-outline:focus:not(:disabled) {
+		background: transparent;
+		color: var(--color-functional-background-white);
+	}
+}

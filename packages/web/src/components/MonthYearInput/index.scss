@@ -1,0 +1,74 @@
+.month-year-input {
+	margin-bottom: 24px;
+
+	p {
+		color: var(--color-brand-blue-1);
+	}
+
+	.month-year-input-label {
+		color: var(--color-brand-blue-1);
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+	.ant-select-disabled {
+		color: var(--color-semantic-disabled-grey-3);
+		border-color: var(--color-semantic-disabled-grey-2) !important;
+		background-color: transparent;
+
+		svg {
+			color: var(--color-semantic-disabled-grey-3) !important;
+		}
+	}
+
+	.month-year-select {
+		display: flex;
+		align-items: center;
+
+		.month-select {
+			margin-right: 15px;
+		}
+
+		.month-select,
+		.year-select {
+			$transparent: transparent;
+
+			&.ant-select {
+				color: var(--color-functional-soft-black);
+				border-width: 0 0 2px;
+				width: 100%;
+				background-color: $transparent;
+				border: none;
+				border-bottom: 2px solid var(--color-brand-blue-1);
+
+				&:active,
+				&:focus {
+					border-color: $transparent;
+				}
+
+				&.ant-select:not(.ant-select-customize-input)
+					.ant-select-selector {
+					background-color: $transparent;
+					border: none;
+				}
+
+				&.ant-select-focused .ant-select-selector,
+				&.ant-select-selector:focus,
+				&.ant-select-selector:active,
+				&.ant-select-open .ant-select-selector {
+					border-color: #d9d9d9 !important;
+					box-shadow: none !important;
+				}
+			}
+		}
+
+		.ant-select-arrow svg {
+			font-size: 13px;
+			color: var(--color-brand-blue-1);
+		}
+	}
+
+	.dob-error {
+		color: var(--color-semantic-error-red-3);
+	}
+}

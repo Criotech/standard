@@ -1,0 +1,44 @@
+{
+  "joinNowPage.subTitle": "MyACUVUE®",
+  "joinNowPage.body.paragraph1": "Join MyACUVUE® and enjoy exclusive offers every time you purchase ACUVUE® contact lenses.",
+  "joinNowPage.body.paragraph2.first": "Join now and receive your",
+  "joinNowPage.body.paragraph2.second": "Rs.100 Welcome Reward per box",
+  "joinNowPage.body.paragraph2.third": "(limit to 4 boxes per transaction). T&Cs apply.",
+
+  "registrationPage.validations.ageThresholdError": "MyACUVUE is only available for Indians aged 18 or above.",
+
+  "joinNowPage.TermsAndConditions.iHaveReadText": "<p>I have read and accepted the <a target='_blank' rel='noreferrer' href='${termsAndConditionUrl}'>Terms & Conditions. </a> I further consent that my personal details collected (“personal information”), will be stored, processed, and utilized in accordance with the terms of the <a target='_blank' rel='noreferrer' href='https://www.acuvue.co.in/privacy-policy'>privacy policy</a></p>",
+  "joinNowPage.TermsAndConditions.privacyPolicyText": "",
+  "joinNowPage.TermsAndConditions.deletePersonalDetailsText": "I reserve the right to request for the deletion of my personal information so shared, by contacting the following email address: ra-jnjin-acuvue2@its.jnj.com",
+
+  "pointsTermsandCondition.info": "<p>I consent that the information as shared with J&J Vision, will be utilized he purposes of direct marketing, including updating me about relevant product updates. Such information may be stored in a location outside of India (in a manner consistent with Indian regulations). I understand that J&J Vision will retain my personal information, for above mentioned purposes (in compliance with applicable statute). </p>",
+  "profilePage.registrationSuccessDialogHeading": "Welcome!",
+  "profilePage.registrationSuccessDialogBody1": "Thank you for registering with MyACUVUE®!",
+  "profilePage.registrationSuccessDialogBody2": "Enjoy exclusive offer, rewards and more every time you shop ACUVUE® Brand Contact Lenses.",
+
+  "dashboardPage.opticalStore.stateLabelKey": "State",
+  "dashboardPage.opticalStore.zoneLabelKey": "Zone",
+  "dashboardPage.opticalStore.confirmationDialogExplanation": "This optical store will be serving you for your MyACUVUE® services.",
+  "dashboardPage.opticalStore.successDialogTitle": "Success!",
+  "dashboardPage.opticalStore.successDialogBody": "Your Optical store has been registered to your account!",
+  "dashboardPage.opticalStore.registerPreferredStoreDescription": "Redeem your complimentary contact lens trial lenses and purchase offer codes at any of these participating optical store. Select your preferred optical store now",
+
+  "header.menuTitle.thinkAboutContacts": "Thinking about contact lenses",
+  "header.menuTitle.getContacts": "GET CONTACT LENSES",
+
+  "header.menuHeader.whyContacts": "Why contact lenses",
+  "header.menuHeader.aboutContacts": "About Contact lenses",
+  "header.menuHeader.forAstigmatism": "Contact Lenses for Astigmatism",
+  "header.menuHeader.forPresbyopia": "For Presbyopia",
+
+  "header.menuItem.contactsTypes": "Contact lens Types",
+  "header.menuItem.compareContacts": "Compare Lenses & Glasses",
+
+  "headerPage.membershipCard.myacuvueRewards": "MyACUVUE®",
+  "headerPage.membershipCard.joinNow": "Free Trial & Offer",
+  "myacuvueLiteHeader.joinNow": "Free Trial & Offer",
+  "headerPage.membershipCard.rewardsDescription": "Get exciting offers & benefits on your purchase of Acuvue contact lenses",
+
+  "completeYourProfilePage.messaging": "Your mobile number has been verified! Please enter your details to complete your profile and gain access to exclusive member benefits! ",
+  "joinNowPage.joinNowStepBar.createAccount": "Complete your Profile"
+}

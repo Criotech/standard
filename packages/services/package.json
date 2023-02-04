@@ -1,0 +1,31 @@
+{
+  "name": "@myacuvue_thailand_web/services",
+  "description": "MyAcuvue Thailand Services",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "https://sourcecode.jnj.com/scm/asx-ndgs/myacuvue_thailand_web.git",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "yarn jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/mustache": "^4.2.1",
+    "@types/node": "^12.0.0",
+    "@types/sanitize-html": "^2.3.2",
+    "jest": "26.6.0",
+    "ts-jest": "^26.5.4",
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "@line/liff": "2.17.0",
+    "axios": "^0.21.1",
+    "mustache": "^4.2.0",
+    "sanitize-html": "^2.7.2",
+    "tslib": "^2.1.0",
+    "ulid": "^2.3.0"
+  }
+}

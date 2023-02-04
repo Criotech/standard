@@ -1,0 +1,15 @@
+.rewards-page {
+	margin-bottom: 100px;
+
+	.available-points {
+		color: var(--color-brand-blue-1);
+		font-size: 16px;
+		margin: 20px 10px 10px;
+		font-weight: 500;
+	}
+
+	.expiry-point-message {
+		margin-left: 10px;
+		font-size: 14px;
+	}
+}

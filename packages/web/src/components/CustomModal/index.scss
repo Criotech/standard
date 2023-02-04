@@ -1,0 +1,47 @@
+.custom-modal {
+	justify-content: center;
+
+	.ant-modal-content > .ant-modal-body {
+		h1 {
+			color: var(--color-brand-blue-1);
+			font-size: 20px;
+
+			font-weight: 500;
+			margin-bottom: 14px;
+		}
+
+		p {
+			color: var(--color-functional-soft-black);
+			font-size: 14px;
+		}
+
+		img {
+			width: 120px;
+			height: 120px;
+			margin: 0 auto 24px auto;
+			display: block;
+		}
+
+		.btns-container {
+			margin-top: 24px;
+
+			button {
+				width: 100%;
+			}
+
+			&.block {
+				display: block;
+
+				button {
+					margin-top: 16px;
+				}
+			}
+
+			&.inline {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+				grid-gap: 16px;
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.about-menu {
+	.acuvue-internal-page-link {
+		position: relative;
+		padding: 10px 10px 0 15px;
+	}
+
+	.acuvue-internal-page-link:hover {
+		background-color: var(--color-functional-background-cool-pale-grey);
+	}
+
+	.about-menu-link {
+		text-align: left;
+		height: 68px;
+		width: 390px;
+		text-decoration: none;
+		color: var(--color-functional-dark-grey);
+	}
+
+	.about-menu-name {
+		text-align: left;
+	}
+
+	.next-icon {
+		position: absolute;
+		right: 10px;
+		top: 13px;
+	}
+}

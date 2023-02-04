@@ -1,0 +1,28 @@
+.acuvue-terms-and-conditions-form {
+	display: flex;
+	flex-direction: column;
+
+	.ant-checkbox-wrapper {
+		margin-left: 0;
+	}
+
+	.checkbox {
+		margin-bottom: 16px;
+	}
+
+	a {
+		size: 19px;
+		color: var(--color-brand-blue-1);
+		text-decoration: underline;
+	}
+
+	.delete-request-text {
+		margin-bottom: 40px;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.accept-button {
+		margin-bottom: 16px;
+	}
+}

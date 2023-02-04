@@ -1,0 +1,18 @@
+.disclaimer-text {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 300;
+	color: #c0c7d0;
+	text-align: center;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #292930;
+}
+
+.wide-screen .disclaimer-text {
+	padding-top: 40px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 40px;
+}

@@ -1,0 +1,15 @@
+.girls-looking-at-smartphone {
+	display: grid;
+
+	.circle-decoration-icon,
+	.girls-looking-at-smartphone-image {
+		width: 100%;
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+}

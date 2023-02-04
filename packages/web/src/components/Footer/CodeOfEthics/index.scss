@@ -1,0 +1,52 @@
+.social-media-list.no-border {
+	border-bottom: 0 !important;
+}
+
+.myacuvue-code-of-ethics {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #292930;
+	padding-bottom: 30px;
+
+	.logo-img {
+		width: 60px;
+		height: 60px;
+	}
+
+	.code-of-ethics-text {
+		color: #c0c7d0;
+		font-size: 12px;
+		font-weight: 300;
+		margin-top: 10px;
+	}
+
+	.link-button {
+		* {
+			cursor: pointer;
+		}
+
+		.link-button-btn {
+			background-color: transparent;
+			color: var(--color-functional-background-white);
+			border-color: var(--color-functional-background-white);
+
+			&:hover {
+				background-color: var(--color-accent-sky-blue);
+				border-color: var(--color-accent-sky-blue);
+				color: var(--color-functional-background-white);
+			}
+		}
+
+		.link-button-text {
+			padding-top: 15px;
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-bottom: 12px;
+		}
+	}
+}

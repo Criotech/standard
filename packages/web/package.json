@@ -1,0 +1,107 @@
+{
+  "name": "@myacuvue_thailand_web/web",
+  "description": "MyAcuvue Thailand WEB",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://sourcecode.jnj.com/scm/asx-ndgs/myacuvue_thailand_web.git",
+  "author": "J&J Digital Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@testing-library/dom": "^8.17.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.2.8-alpha.1",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/google.maps": "^3.50.4",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.3.3",
+    "cross-env": "^7.0.3",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "react-scripts": "4.0.3",
+    "sass": "^1.52.1",
+    "serve": "^14.0.1",
+    "source-map-explorer": "^2.5.3",
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@azure/msal-browser": "^2.26.0",
+    "@azure/msal-react": "^1.4.8",
+    "@line/liff": "2.17.0",
+    "@myacuvue_thailand_web/services": "^0.0.1",
+    "@myacuvue_thailand_web/templates": "^0.0.1",
+    "@react-google-maps/api": "^2.2.0",
+    "antd": "^4.15.4",
+    "jsbarcode": "^3.11.5",
+    "moment": "^2.29.4",
+    "normalize.css": "^8.0.1",
+    "rc-virtual-list": "^3.4.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-otp-input": "^2.4.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-dom-v5-compat": "^6.4.3",
+    "react-use": "^17.2.4",
+    "shallow-equal": "^1.2.1",
+    "ulid": "^2.3.0",
+    "workbox-background-sync": "^5.1.3",
+    "workbox-broadcast-update": "^5.1.3",
+    "workbox-cacheable-response": "^5.1.3",
+    "workbox-core": "^5.1.3",
+    "workbox-expiration": "^5.1.3",
+    "workbox-google-analytics": "^5.1.3",
+    "workbox-navigation-preload": "^5.1.3",
+    "workbox-precaching": "^5.1.3",
+    "workbox-range-requests": "^5.1.3",
+    "workbox-routing": "^5.1.3",
+    "workbox-strategies": "^5.1.3",
+    "workbox-streams": "^5.1.3"
+  },
+  "scripts": {
+    "start:th": "cross-env PORT=3000 yarn react-scripts start",
+    "start:au": "cross-env PORT=3001 yarn react-scripts start",
+    "start:tw": "cross-env PORT=3002 yarn react-scripts start",
+    "start:hk": "cross-env PORT=3003 yarn react-scripts start",
+    "start:sg": "cross-env PORT=3004 yarn react-scripts start",
+    "start:my": "cross-env PORT=3005 yarn react-scripts start",
+    "start:nz": "cross-env PORT=3006 yarn react-scripts start",
+    "start:in": "cross-env PORT=3007 yarn react-scripts start",
+    "build": "rm -rf build && yarn react-scripts build",
+    "test": "yarn react-scripts test --watchAll=false --coverage --detectOpenHandles --unhandled-rejections=strict",
+    "serve": "serve -s build -l 5000",
+    "eject": "yarn react-scripts eject",
+    "analyze": "yarn source-map-explorer 'build/static/js/*.js'",
+    "lint": "yarn eslint --fix ."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@myacuvue_thailand_web|promise-polyfill)/)"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!**/*.d.ts"
+    ]
+  }
+}

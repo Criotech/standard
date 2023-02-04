@@ -1,0 +1,21 @@
+.acuvue-contact-section {
+	display: flex;
+	flex-direction: column;
+
+	.contact-title {
+		color: var(--color-functional-dark-grey);
+		font-size: 12px;
+		font-weight: 500;
+		margin-bottom: 8px;
+	}
+
+	.contact-block {
+		font-size: 16px;
+
+		.telephone {
+			color: var(--color-brand-blue-1);
+			text-decoration: underline;
+			font-weight: 300;
+		}
+	}
+}

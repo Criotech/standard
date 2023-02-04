@@ -1,0 +1,16 @@
+{
+  "joinNowPage.subTitle": "MyACUVUE®",
+  "joinNowPage.body.paragraph1": "Collect points with ACUVUE® contact lenses. Redeem rewards exclusive to members.",
+  "joinNowPage.body.paragraph2.first": "Join now to receive your",
+  "joinNowPage.body.paragraph2.second": "$30 Welcome Reward!",
+  "joinNowPage.body.paragraph2.third": "(T&Cs and minimum purchase apply.)",
+  "registrationPage.validations.ageThresholdError": "MyACUVUE is only available for Australians aged 16 or above.",
+  "validation.otp.any.invalid": "You have entered an invalid OTP, please try again.",
+  "completeYourProfilePage.messaging": "Your email has been verified. Complete your profile below so we can tailor the MyACUVUE® experience and offers to you.",
+  "completeYourProfileForm.form.marketingPreference.subTitle": "Don’t miss out on the latest offers and updates from ACUVUE®! Select how you want to hear from us.",
+  "dashboardPage.membership.benefitsHeading": "YOUR BENEFITS",
+  "dashboardPage.membershipDetails.benefitsList.pointsWithAcuvueContactLensPurchases": "Points with the purchase of ACUVUE® contact lenses from your Preferred Optical Store.",
+  "dashboardPage.membershipDetails.benefitsList.redeemRewards": "Redeem points for rewards.",
+  "dashboardPage.membershipDetails.benefitsList.exclusiveOffersDeliveredStraightToYou": "Receive offers personalized to you.",
+  "profilePage.registrationSuccessDialogBody2": "But first, you need to select your Preferred Optical Store before your reward is issued to your account."
+}

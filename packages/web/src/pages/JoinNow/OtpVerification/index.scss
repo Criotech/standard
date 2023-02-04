@@ -1,0 +1,26 @@
+.acuvue-otp-verification-page {
+	.content-wrapper {
+		width: 100%;
+		background-image: url("/images/gray-circles.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		max-width: 416px;
+		margin: 48px auto 0 auto;
+		padding: 0 20px 72px 20px;
+
+		.otp-verification-title {
+			width: 100%;
+			margin-bottom: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}
+
+.wide-screen .acuvue-otp-verification-page {
+	.content-wrapper {
+		margin: 40px auto 0 auto;
+		padding: 0 0 80px 0;
+	}
+}

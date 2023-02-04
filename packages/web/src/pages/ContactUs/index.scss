@@ -1,0 +1,29 @@
+.contact-us {
+	main {
+		padding: 30px 15px 0;
+		margin-bottom: 100px;
+	}
+
+	.ant-customer-acuvue-divider {
+		border-top: 1px solid var(--color-functional-extra-light-grey);
+	}
+
+	.customer-support {
+		margin: 0;
+		font-size: 10px;
+		color: var(--color-functional-dark-grey);
+	}
+
+	.customer-opening-hour {
+		font-size: 14px;
+		color: var(--color-functional-soft-black);
+	}
+
+	.customer-support-contact {
+		font-size: 14px;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+}

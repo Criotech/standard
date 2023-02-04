@@ -1,0 +1,36 @@
+.lifestyle-catalog {
+	margin: 0 15px;
+
+	.redeem-title,
+	.redeem-new-rewards {
+		font-size: 14px;
+	}
+
+	.rewards-featured,
+	.other-rewards {
+		font-size: 20px;
+		color: #003087;
+	}
+
+	.other-rewards {
+		margin-top: 25px;
+	}
+
+	.grouped-coupons {
+		display: flex !important;
+		justify-content: space-between;
+
+		.vertical-coupon {
+			width: 95%;
+		}
+
+		.lifestyle-coupon-card-filler,
+		.lifestyle-coupon-card-link {
+			flex: 1 1 0;
+		}
+	}
+
+	.thin-divider {
+		margin: 50px 0 0 0;
+	}
+}

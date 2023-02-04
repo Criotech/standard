@@ -1,0 +1,165 @@
+{
+  "joinNowPage.TermsAndConditions.deletePersonalDetailsText": "",
+  "joinNowPage.TermsAndConditions.acceptText": "ACCEPT",
+  "joinNowPage.TermsAndConditions.goBackText": "GO BACK",
+  "joinNowPage.title": "JOIN NOW",
+  "joinNowPage.subTitle": "MyACUVUE™",
+
+  "joinNowPage.mobileNumberRegistration.countryCode": "+60",
+
+  "joinNowPage.TermsAndConditions.iHaveReadText": "<p>I have read and accepted the <a target='_blank' rel='noreferrer' href='${termsAndConditionUrl}'>Terms & Conditions.</a></p>",
+
+  "joinNowPage.body.paragraph1": "Enjoy exclusive offers by earning points every time you purchase ACUVUE® Brand Contact Lenses.",
+  "joinNowPage.body.paragraph2.first": "Join now to enjoy up to",
+  "joinNowPage.body.paragraph2.second": "RM60 Welcome Reward!",
+  "joinNowPage.body.paragraph2.third": "",
+
+  "aboutPointsPage.pointsDescription.body": "“MyACUVUE™ Point” is a point collection privilege given to ACUVUE® Consumer who purchase on ACUVUE® products or take actions set by ACUVUE®.​",
+
+  "aboutPointsPage.pointsDescription.point2": "Simply make a purchase on ACUVUE® contact lenses at your optical store or ACUVUE® TO HOME to collect MyACUVUE™ points.",
+
+  "pointsTermsAndCondition.title": "Terms & Conditions",
+  "pointsTermsandCondition.info": "<p>Johnson & Johnson collects your personal data to enable us to include you in our Loyalty Membership Program and create relevant experiences and offers to you. We process personal data in accordance with our <a target='_blank' rel='noreferrer' href='https://www.acuvue.com.my/privacy-policy'>Privacy Policy.</a></p>",
+
+  "couponDetails.points": "POINTS",
+
+  "rewardsPage.couponDetails.eligibleForStore": "Valid for using at your optical store",
+  "rewardsPage.couponDetails.eligibleForHome": "Valid for ACUVUE® TO HOME",
+  "rewardsPage.couponDetails.terms": "Terms & Conditions",
+  "rewardsPage.couponDetails.validPeriod": "Valid Period: ${from} to ${to}",
+
+  "rewardsPage.acuvueCouponCard.points": "POINTS",
+
+  "rewardsPage.walletCouponCard.expiringOn": "Expiring on ${expiringDate}",
+  "rewardsPage.acuvueCouponCard.expiringOn": "Expiring on ${expiringDate}",
+
+  "membershipPage.platinumView.gift": "Receive an exclusive welcome gift",
+  "membershipPage.platinumView.giftDescription": "Welcome you with an exclusive gift.",
+  "membershipPage.platinumView.platinumBirthdayDescription": "Enjoy unlimited 3X MyACUVUE™ Points for every purchase on ACUVUE® contact lenses on your birth month.",
+
+  "membershipPage.memberView.memberBirthdayDescription": "Enjoy unlimited 2X MyACUVUE™ Points for every purchase on ACUVUE® contact lenses on your birth month",
+  "membershipPage.memberView.memberPurchase": "Earn MyACUVUE™ Points for every purchase",
+  "membershipPage.memberView.memberPurchaseDescription": "Earn MyACUVUE™ Points when you purchase ACUVUE® contact lenses.",
+  "membershipPage.memberView.memberRedeem": "Redeem MyACUVUE™ Points for rewards",
+  "membershipPage.memberView.memberRedeemDescription": "Redeem your MyACUVUE™ Points for ACUVUE® cash coupons and other rewards from participating shops.",
+  "membershipPage.memberView.memberComplementaryTest": "Complimentary eye test",
+  "membershipPage.memberView.memberComplementaryTestDescription": "We offer a complimentary eye test by an eye care professional at your optical store.",
+  "membershipPage.memberView.memberComplementaryContactLens": "Complimentary ACUVUE® contact lens trial",
+  "membershipPage.memberView.memberComplementaryContactLensDescription": "Try ACUVUE® contact lenses for free at your optical store.",
+  "membershipPage.memberView.memberSpecialMember": "Special member-only offers and privileges from ACUVUE® and participating optical stores",
+  "membershipPage.memberView.memberSpecialMemberDescription": "Access to other special offers and privileges available only to MyACUVUE™ members.",
+  "membershipPage.member": "Member",
+  "membershipPage.platinum": "PLATINUM",
+
+  "dashboardPage.membershipDetails.benefitsList.pointsWithAcuvueContactLensPurchases": "Points earning",
+  "dashboardPage.membershipDetails.benefitsList.redeemRewards": "Exchange points for ACUVUE® vouchers",
+  "dashboardPage.membershipDetails.benefitsList.exclusiveOffersDeliveredStraightToYou": "Enjoy 2x points on your birthday month",
+  "dashboardPage.membershipDetails.benefitsList.exchangePointsWithAcuvueVouchers": "Exchange points for ACUVUE® vouchers",
+  "dashboardPage.membershipDetails.navigateToQRCode": "MyACUVUE™ mobile app is required to collect points and redeem rewards. Scroll down for a QR code linking you to the free app.",
+
+  "dashboardPage.rewardWallet.empty.earnPoints": "",
+  "dashboardPage.rewardWallet.empty.selectStore": "",
+  "dashboardPage.rewardWallet.empty.redeemRewardsCollectPoints": "You don't have any rewards at the moment. Redeem rewards from 1,000 points and look out for exclusive offers from us! Start collecting points now with every purchase you make on MyACUVUE™ App.",
+
+  "dashboard.memberSupport.operatingHours": "Operating hours: (Monday - Friday 09:00am - 06:00pm)",
+  "dashboard.memberSupport.myacuvueMemberSupport": "MyACUVUE™ Support",
+  "dashboard.memberSupport.phone": "Hotline: ${phone}",
+
+  "dashboardPage.opticalStore.confirmationDialogExplanation": "Purchase your ACUVUE® contact lenses at this store and start collecting points with every purchase.Would you like to register this as your preferred store?",
+
+  "dashboardPage.opticalStore.changeOpticalStoreDialogPhone": "Phone: 1800 812 482 ( Monday - Friday 09:00am - 06:00pm)",
+  "dashboardPage.opticalStore.changeOpticalStoreDialogEmail": "Email: my.myacuvue@its.jnj.com",
+  "dashboardPage.opticalStore.zoneLabelKey": "City",
+
+  "dashboardPage.opticalStore.registerPreferredStoreDescription": "Start collecting points every time you purchase ACUVUE® contact lenses from your participating Optical Store. ",
+
+  "dashboardPage.invitation.title": "Enjoy more with MyACUVUE™ App! Redeem your points for rewards, unlock more exclusive benefits at anytime.",
+  "dashboardPage.invitation.body": "",
+
+  "dashboardPage.invitation.appExclusiveOffersTitle": "App Exclusive Offers",
+  "dashboardPage.invitation.appExclusiveOffersBody": "Visit the app for exclusive promo codes and reward redemption.",
+  "dashboardPage.invitation.itsEasyTitle": "Booking Appointment",
+  "dashboardPage.invitation.itsEasyBody": "Manage your eye care consultation with your registered optical store in just a few clicks",
+  "dashboardPage.invitation.contactLensesTitle": "Don't Miss Out",
+  "dashboardPage.invitation.contactLensesBody": "Receive important product news and latest promotions",
+  "dashboardPage.invitation.exclusiveGamesTitle": "",
+  "dashboardPage.invitation.exclusiveGamesBody": "",
+  "dashboardPage.invitation.contactLensTipsTitle": "Contact lens tips and tricks",
+  "dashboardPage.invitation.contactLensTipsBody": "Get the most from your contact lenses by accessing tips and tricks in Eye Care Center",
+  "dashboardPage.opticalStore.getYourEyeCheckedRegularly": "NEW WEARER GUIDE",
+  "dashboardPage.invitation.appPrivilegeSubHeader": "MyACUVUE™ App",
+
+  "profilePage.registrationSuccessDialogHeading": "Welcome!",
+  "profilePage.registrationSuccessDialogHeadingTH": "",
+  "profilePage.registrationSuccessDialogBody1": "Thank you for registering with MyACUVUE™ Rewards Program! Enjoy exclusive offer, rewards and more by earning points every time you purchase or replenish your MyACUVUE™ Brand Contact Lenses.",
+  "profilePage.registrationSuccessDialogBody2": "",
+  "profilePage.registrationSuccessDialogBody3": "",
+
+  "emailVerification.subTitle": "MyACUVUE™",
+  "emailVerification.body.paragraph1": "A verification email has been sent to your email account (${email}).",
+  "emailVerification.body.paragraph2": "Kindly verify your email address by clicking on the verification link in the email",
+  "emailVerification.body.paragraph3": "Didn't receive the email? Check your spam/ junk folder. If you still did not receive it, kindly contact MyACUVUE™ Support at Email: my.myacuvue@its.jnj.com Hotline : 1 800 812 482",
+
+  "completeYourProfilePage.subHeaderAU": "MyACUVUE™",
+
+  "completeYourProfileForm.form.wearingAcuvueContactLens": "Yes, I am currently wearing non-ACUVUE brand contact lens",
+  "completeYourProfileForm.form.wearingNonAcuvueContactLens": "Yes, I am currently wearing ACUVUE brand contact lenses",
+
+  "updatePassword.successSnackbar": "Password successfully updated!",
+
+  "dashboardPage.blockTitle.myAcuvueMembership": "MyACUVUE™ Membership",
+
+  "dashboardPage.membership.member": "Member",
+  "dashboardPage.membership.benefitsHeading": "Benefits",
+
+  "registrationPage.validations.ageThresholdError": "MyACUVUE is only available to 13 and above",
+
+  "myacuvueLiteHeader.memberDashboard": "Member's Overview",
+
+  "editAddressPage.subTitle": "MyACUVUE™",
+  "editAddressPage.countryName": "Malaysia",
+
+  "marketPreferencesPage.subTitle": "MyACUVUE™",
+
+  "dashboardPage.opticalStore.changeOpticalStoreDialogBody": "Contact MyACUVUE™ Support to change your preferred practice.",
+
+  "editProfilePage.subTitle": "MyACUVUE™",
+
+  "profilePage.subTitle": "MyACUVUE™",
+
+  "UpdateMobileNumberPage.subTitle": "MyACUVUE™",
+  "registrationPage.form.yourRegisteredMobileTextKey": "The number you have registered with MyACUVUE™ is",
+
+  "headerPage.membershipCard.myacuvueRewards": "MyACUVUE™ Rewards",
+  "myacuvueLiteHeader.topHeaderSection.frequentlyAskedQuestions": "FAQ",
+  "myacuvueLiteHeader.topHeaderSection.myAcuvue": "MyACUVUE™",
+  "header.menuItem.whichAcuvue": "Which ACUVUE® Best Suits You?",
+  "header.menuItem.parentsWhatShouldYouKnow": "Parents: What Should You Know",
+  "header.menuItem.productFinder": "Product Finder",
+  "header.menuItem.whyAcuvueWithQuestionMark": "Why ACUVUE®?",
+  "header.menuItem.acuvueOasy1DayWithHydraLuxeTechnologyForAstigmatism": "ACUVUE® OASYS 1-DAY With HydraLuxe™ Technology For ASTIGMATISM",
+  "header.menuItem.acuvueMoistBrandMultifocal_1D": "ACUVUE® Moist® Brand Multifocal (1-Day)",
+  "header.menuItem.prepareForAppointment": "Prepare For Appointment",
+  "header.menuItem.MyAcuvueStores": "MyACUVUE™ Stores",
+  "header.menuItem.promotions": "promotions",
+  "header.menuItem.covid19FAQ": "COVID-19 FAQ",
+  "header.menuTitle.highlights": "HIGHLIGHTS",
+  "header.menuItem.acuvueDefineFreshCollection": "ACUVUE® DEFINE® Fresh Collection",
+  "header.menuTitle.visionCorrection": "VISION & CORRECTION",
+  "header.menuHeader.maintainingHealthyEyes": "Maintaining Healthy Eyes",
+  "header.menuHeader.commonVisionProblems": "Common Vision Problems",
+  "header.menuItem.theSunAndYourEyes": "The Sun & Your Eyes",
+  "header.menuItem.preventingDigitalEyeStrain": "Preventing Digital Eye Strain",
+  "header.menuItem.nutritionForHealthyEyes": "Nutrition For Healthy Eyes",
+  "header.menuItem.basicEyeAnatomy": "Basic Eye Anatomy",
+  "header.menuItem.prioritizeYourEyes": "Prioritize Your Eyes",
+  "header.menuItem.otherEyeConditions": "Other Eye Conditions",
+  "header.menuItem.conjunctivits": "Conjunctivits",
+  "header.menuItem.eyeAllergy": "Eye Allergy",
+  "header.menuItem.styes": "Styes",
+  "header.menuItem.glaucoma": "Glaucoma",
+  "header.menuItem.cataract": "Cataract",
+  "header.menuItem.dryEye": "Dry Eye",
+  "header.menuItem.macularDegeneration": "Macular Degeneration",
+  "header.menuItem.howToGetContacts": "How To Get Contacts"
+}

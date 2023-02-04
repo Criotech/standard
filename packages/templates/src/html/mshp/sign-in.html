@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign In</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style id="myacuvue-style"></style>
+	</head>
+
+	<body>
+		<div id="api"></div>
+		<script>
+			function createTogglerOnClickHandler(toggler, passwordInput) {
+				function onClickHandler() {
+					if (passwordInput.type === "password") {
+						passwordInput.type = "text";
+						toggler.className = "eye";
+					} else {
+						passwordInput.type = "password";
+						toggler.className = "eye-slash";
+					}
+				}
+				return onClickHandler;
+			}
+
+			function createVisibilityToggler(passwordInput) {
+				const toggler = document.createElement("span");
+				toggler.className = "eye-slash";
+				const togglerId = passwordInput.id + "-toggler";
+				toggler.setAttribute("id", togglerId);
+				return toggler;
+			}
+
+			function setUpPasswordTogglers() {
+				const passwordInputs = document.querySelectorAll(
+					"input[type=password]"
+				);
+				for (let i = 0; i < passwordInputs.length; i++) {
+					const passwordInput = passwordInputs[i];
+					const toggler = createVisibilityToggler(passwordInput);
+					toggler.onclick = createTogglerOnClickHandler(
+						toggler,
+						passwordInput
+					);
+					passwordInput.insertAdjacentElement("afterend", toggler);
+				}
+			}
+
+			var pages = {
+				SIGNIN_ERROR: {
+					identifier: function () {
+						const serverErrorValue =
+							query(".error.pageLevel p").innerHTML;
+						return (
+							query("#signInName") &&
+							query("#password") &&
+							query("#forgotPassword") &&
+							serverErrorValue &&
+							query(".error.pageLevel").style.display === "block"
+						);
+					},
+					applyChanges: function () {
+						const serverErrorValue =
+							query(".error.pageLevel p").innerHTML;
+						let serverError = getAppendedElement(
+							"span",
+							"error-message server-error",
+							serverErrorValue
+						);
+						if (serverError) {
+							serverError.remove();
+						}
+
+						query("#signInName").insertAdjacentElement(
+							"afterend",
+							serverError
+						);
+					},
+				},
+				SIGNIN: {
+					identifier: function () {
+						return (
+							query("#signInName") &&
+							query("#password") &&
+							query("#forgotPassword") &&
+							!query(".error.pageLevel p").innerHTML
+						);
+					},
+					applyChanges: function () {
+						pageView();
+						registerFormEvent("sign_in");
+
+						let joinNowText =
+							"<p class='join-now'> Not a MyACUVUE<sup>®</sup> Member? Why not sign-up today! </p>";
+						let joinNowTextHtml = stringToHTML(joinNowText);
+						let alreadyAMemberText =
+							"<p class='join-now'> If you already have the MyACUVUE<sup>®</sup> app, sign in with the same email you registered with in the app.</p>";
+						let alreadyAMemberTextHtml =
+							stringToHTML(alreadyAMemberText);
+
+						query(".entry").appendChild(joinNowTextHtml);
+						query(".entry").appendChild(alreadyAMemberTextHtml);
+
+						let labelNode = document.querySelectorAll("label");
+						labelNode[0].textContent = "Email";
+
+						let inputNodes =
+							document.querySelectorAll(".entry-item");
+
+						let emailInput = query("#signInName");
+						emailInput.placeholder = "Enter email address";
+
+						let passwordInput = query("#password");
+						passwordInput.placeholder = "Enter Password";
+
+						document.addEventListener(
+							"invalid",
+							(function () {
+								return function (e) {
+									e.preventDefault();
+									query("#signInName").focus();
+								};
+							})(),
+							true
+						);
+
+						let forgotPasswordText = query("#forgotPassword");
+						forgotPasswordText.textContent = "Forgot Password?";
+
+						let forgotPasswordLink = query(".working");
+						forgotPasswordLink.appendChild(forgotPasswordText);
+
+						const formInputs = document.querySelectorAll("input");
+						const formInputsErrors = queryAll(".error.itemLevel");
+
+						for (let i = 0; i < formInputs.length; i++) {
+							const inputElement = formInputs[i];
+							const inputErrorElement = formInputsErrors[i];
+
+							inputErrorElement.classList.add("error-message");
+
+							inputElement.insertAdjacentElement(
+								"afterend",
+								inputErrorElement
+							);
+						}
+
+						query(".working").setAttribute(
+							"class",
+							"forgot-password"
+						);
+
+						hide(query(".error.pageLevel"));
+
+						query("#next").addEventListener("click", (e) => {
+							if (query(".server-error")) {
+								query(".server-error").remove();
+							}
+						});
+
+						setUpPasswordTogglers();
+
+						query("#signInName").title = "";
+					},
+				},
+			};
+		</script>
+		<script id="myacuvue-script"></script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+.points-block {
+	display: flex;
+
+	h1 {
+		text-align: center;
+	}
+
+	p {
+		font-size: 12px;
+
+		&.points-terms {
+			color: var(--color-brand-blue-2);
+			text-decoration: underline;
+		}
+	}
+
+	.points-earned {
+		color: var(--color-brand-blue-1);
+	}
+
+	.points-block-text {
+		margin-left: 20px;
+	}
+
+	.progress-block {
+		width: 30%;
+		display: inline-block;
+		text-align: center;
+	}
+}

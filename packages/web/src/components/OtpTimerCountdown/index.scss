@@ -1,0 +1,11 @@
+.timer-container {
+	display: flex;
+	justify-content: center;
+	margin: 2rem auto;
+
+	span {
+		text-align: center;
+		color: var(--color-semantic-error-red-3);
+		font-size: 14px;
+	}
+}

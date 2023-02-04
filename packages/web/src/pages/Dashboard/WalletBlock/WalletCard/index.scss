@@ -1,0 +1,39 @@
+.wallet-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 220px;
+	gap: 12px;
+
+	.image-container {
+		height: 170px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #efefef;
+
+		.wallet-card-image {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: cover;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.wallet-card-title {
+		margin: 0;
+		padding: 0;
+		color: var(--color-functional-soft-black);
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 21px;
+	}
+}
+
+.wide-screen .wallet-card {
+	.wallet-card-title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}

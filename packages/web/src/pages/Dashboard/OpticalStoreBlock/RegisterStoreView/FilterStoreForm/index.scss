@@ -1,0 +1,39 @@
+.filter-store-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	gap: 16px;
+
+	.label {
+		color: var(--color-brand-blue-1);
+		font-size: 14px;
+		font-weight: 500;
+		margin-bottom: 8px;
+		line-height: 18px;
+	}
+
+	.state-select-input,
+	.zone-select-input {
+		height: 32px;
+	}
+
+	.find-button {
+		width: 100%;
+		height: 48px;
+	}
+}
+
+.wide-screen .filter-store-form {
+	flex-direction: row;
+
+	.state-input,
+	.zone-input,
+	.find-input {
+		flex: 1;
+	}
+
+	.find-button {
+		width: 140px;
+	}
+}

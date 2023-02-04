@@ -1,0 +1,15 @@
+.debug-xiam {
+	width: 700px;
+
+	.token {
+		white-space: pre;
+		font-family: monospace;
+	}
+
+	.auth-context-operations .reset-section {
+		width: 100%;
+		max-width: 400px;
+		display: flex;
+		flex-direction: column;
+	}
+}

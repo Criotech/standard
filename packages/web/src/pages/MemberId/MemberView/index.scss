@@ -1,0 +1,41 @@
+.member-view {
+	margin-top: 30px;
+
+	.your-optical-store {
+		margin-top: 30px;
+		display: flex;
+		flex-direction: row;
+
+		.your-optical-store-details {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.optical-store-icon {
+			width: 60px;
+			height: 60px;
+			margin-right: 16px;
+		}
+
+		.your-optical-store-header {
+			margin: 0;
+			padding: 0;
+			font-size: 16px;
+			color: #003087;
+		}
+
+		.your-optical-store-address {
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.thin-divider {
+		margin: 30px 15px;
+	}
+
+	.custom-store-block {
+		padding-right: 15px;
+	}
+}

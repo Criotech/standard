@@ -1,0 +1,22 @@
+.register-store-small-view {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	box-shadow: 0 2px 6px #00000026;
+	gap: 24px;
+
+	.register-store-description {
+		font-size: 16px;
+		font-weight: 300;
+		color: var(--color-functional-soft-black);
+		line-height: 21px;
+	}
+
+	.number-of-results {
+		font-size: 18px;
+		font-weight: 400;
+		color: var(--color-functional-dark-grey);
+		line-height: 24px;
+		margin: 0;
+	}
+}

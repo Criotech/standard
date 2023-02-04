@@ -1,0 +1,58 @@
+- url: https://jenkins.eat.jnj.com/tawd-dev/
+  buildFrom:
+      - feature/*
+      - bugfix/*
+      - hotfix/*
+      - master
+      - develop
+      - staging
+      - production
+  triggerFrom:
+      - feature/*
+      - bugfix/*
+      - hotfix/*
+      - master
+      - develop
+      - staging
+      - production
+  # Job Creation details
+  createJobsFrom: # branches to create jenkins job from
+      - feature/*
+      - bugfix/*
+      - hotfix/*
+      - master
+      - develop
+      - staging
+      - production
+  createJobsIncludeAuthors: # create jobs for all users making commits to the repo
+      - .*
+  createJobsIgnoreAuthors: # ignore creation of Jobs triggered by service account
+  createJobsIncludeCommits:
+      - .*
+  createJobsIgnoreCommits: []
+  # Job Trigger details
+  triggerJobsFrom: # branches where jenkins job build is triggered when a change is detected
+      - feature/*
+      - bugfix/*
+      - hotfix/*
+      - master
+      - develop
+      - staging
+      - production
+  triggerJobsIncludeAuthors:
+      - .*
+  triggerJobsIgnoreAuthors:
+  triggerJobsIncludeCommits:
+      - .*
+  jobs:
+      - jobStyle: multi-branch-pipeline
+        jobName: th-web
+        jobCredentials: sourcecode-bitbucket
+        includeBranches:
+            - feature/*
+            - bugfix/*
+            - hotfix/*
+            - master
+            - develop
+            - staging
+            - production

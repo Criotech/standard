@@ -1,0 +1,62 @@
+.acuvue-step-bar {
+	margin-top: 40px;
+	font-size: unset;
+
+	.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+		background-color: var(--color-brand-blue-1);
+		border-color: var(--color-brand-blue-1);
+	}
+
+	.ant-steps-item-process
+		> .ant-steps-item-container
+		> .ant-steps-item-content
+		> .ant-steps-item-title {
+		color: var(--color-brand-blue-1);
+	}
+
+	.ant-steps-item-tail::after,
+	.ant-steps-item-wait
+		> .ant-steps-item-container
+		> .ant-steps-item-tail::after,
+	.step-bar .ant-steps-item-tail::after,
+	.step-bar
+		.ant-steps-item-process
+		> .ant-steps-item-container
+		> .ant-steps-item-tail::after,
+	.ant-steps-item-process
+		> .ant-steps-item-container
+		> .ant-steps-item-tail::after {
+		border-color: var(--color-functional-light-grey);
+		background-color: var(--color-functional-light-grey);
+		border-width: 2px;
+	}
+
+	.ant-steps-item-icon {
+		border-width: 2px;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		border-color: var(--color-functional-dark-grey);
+	}
+
+	.ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+		color: var(--color-functional-dark-grey);
+	}
+
+	.ant-steps-item-tail,
+	.ant-steps-label-vertical .ant-steps-item-tail {
+		padding: 3.5px 10px;
+		z-index: -1;
+		border-width: 2px;
+	}
+
+	.ant-steps-item-finish
+		> .ant-steps-item-container
+		> .ant-steps-item-tail::after {
+		background-color: var(--color-brand-blue-1);
+	}
+
+	.ant-steps-item-tail::after {
+		height: 2px;
+	}
+}

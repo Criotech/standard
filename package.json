@@ -1,0 +1,51 @@
+{
+  "name": "@myacuvue_thailand_web/root",
+  "description": "MyAcuvue Thailand WEB",
+  "version": "0.1320.0",
+  "main": "index.js",
+  "repository": "https://sourcecode.jnj.com/scm/asx-ndgs/myacuvue_thailand_web.git",
+  "author": "J&J Digital Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "prettier --write --ignore-unknown .",
+    "build": "yarn lerna run build --stream --concurrency=2",
+    "start": "echo Check the README file for which instances are available to run and run the correct start command. Eg.: start:th",
+    "start:th": "yarn lerna run start:th --stream --concurrency=2",
+    "start:au": "yarn lerna run start:au --stream --concurrency=2",
+    "start:tw": "yarn lerna run start:tw --stream --concurrency=2",
+    "start:hk": "yarn lerna run start:hk --stream --concurrency=2",
+    "start:sg": "yarn lerna run start:sg --stream --concurrency=2",
+    "start:my": "yarn lerna run start:my --stream --concurrency=2",
+    "start:nz": "yarn lerna run start:nz --stream --concurrency=2",
+    "start:in": "yarn lerna run start:in --stream --concurrency=2",
+    "start_templates:th": "yarn lerna run start_templates:th --stream --concurrency=2",
+    "start_templates:au": "yarn lerna run start_templates:au --stream --concurrency=2",
+    "start_templates:tw": "yarn lerna run start_templates:tw --stream --concurrency=2",
+    "start_templates:hk": "yarn lerna run start_templates:hk --stream --concurrency=2",
+    "start_templates:sg": "yarn lerna run start_templates:sg --stream --concurrency=2",
+    "start_templates:my": "yarn lerna run start_templates:my --stream --concurrency=2",
+    "start_templates:nz": "yarn lerna run start_templates:nz --stream --concurrency=2",
+    "start_templates:in": "yarn lerna run start_templates:in --stream --concurrency=2",
+    "test": "yarn lerna run test --stream --concurrency=2",
+    "serve": "yarn lerna run serve --stream --concurrency=2",
+    "prepare": "yarn husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^13.0.3",
+    "postcss": "^8.4.17",
+    "postcss-scss": "^4.0.5",
+    "prettier": "^2.2.1",
+    "stylelint": "^14.13.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "**/*.scss": "stylelint --fix",
+    "**/*.css": "stylelint --fix"
+  }
+}

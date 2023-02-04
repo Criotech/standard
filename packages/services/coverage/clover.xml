@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1671451446243" clover="3.2.0">
+  <project timestamp="1671451446243" name="All files">
+    <metrics statements="1175" coveredstatements="1139" conditionals="337" coveredconditionals="294" methods="243" coveredmethods="232" elements="1755" coveredelements="1665" complexity="0" loc="1175" ncloc="1175" packages="41" files="82" classes="82"/>
+    <package name="src">
+      <metrics statements="84" coveredstatements="84" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/index.ts">
+        <metrics statements="84" coveredstatements="84" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="5" count="13" type="stmt"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="13" count="13" type="stmt"/>
+        <line num="14" count="13" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
+        <line num="16" count="13" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+        <line num="18" count="13" type="stmt"/>
+        <line num="19" count="13" type="stmt"/>
+        <line num="20" count="13" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="22" count="13" type="stmt"/>
+        <line num="23" count="13" type="stmt"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="25" count="13" type="stmt"/>
+        <line num="26" count="13" type="stmt"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="28" count="13" type="stmt"/>
+        <line num="29" count="13" type="stmt"/>
+        <line num="30" count="13" type="stmt"/>
+        <line num="31" count="13" type="stmt"/>
+        <line num="32" count="13" type="stmt"/>
+        <line num="33" count="13" type="stmt"/>
+        <line num="34" count="13" type="stmt"/>
+        <line num="35" count="13" type="stmt"/>
+        <line num="36" count="13" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="39" count="13" type="stmt"/>
+        <line num="41" count="13" type="stmt"/>
+        <line num="52" count="13" type="stmt"/>
+        <line num="92" count="13" type="stmt"/>
+        <line num="93" count="13" type="stmt"/>
+        <line num="109" count="13" type="stmt"/>
+        <line num="110" count="13" type="stmt"/>
+        <line num="111" count="13" type="stmt"/>
+        <line num="113" count="26" type="stmt"/>
+        <line num="116" count="13" type="stmt"/>
+        <line num="117" count="13" type="stmt"/>
+        <line num="118" count="13" type="stmt"/>
+        <line num="119" count="13" type="stmt"/>
+        <line num="120" count="13" type="stmt"/>
+        <line num="121" count="13" type="stmt"/>
+        <line num="122" count="13" type="stmt"/>
+        <line num="123" count="13" type="stmt"/>
+        <line num="124" count="13" type="stmt"/>
+        <line num="125" count="13" type="stmt"/>
+        <line num="126" count="13" type="stmt"/>
+        <line num="127" count="13" type="stmt"/>
+        <line num="128" count="13" type="stmt"/>
+        <line num="129" count="13" type="stmt"/>
+        <line num="130" count="13" type="stmt"/>
+        <line num="131" count="13" type="stmt"/>
+        <line num="132" count="26" type="stmt"/>
+        <line num="133" count="26" type="stmt"/>
+        <line num="134" count="13" type="stmt"/>
+        <line num="135" count="13" type="stmt"/>
+        <line num="136" count="13" type="stmt"/>
+        <line num="137" count="13" type="stmt"/>
+        <line num="138" count="13" type="stmt"/>
+        <line num="139" count="13" type="stmt"/>
+        <line num="140" count="13" type="stmt"/>
+        <line num="141" count="13" type="stmt"/>
+        <line num="142" count="13" type="stmt"/>
+        <line num="143" count="13" type="stmt"/>
+        <line num="144" count="13" type="stmt"/>
+        <line num="145" count="13" type="stmt"/>
+        <line num="146" count="13" type="stmt"/>
+        <line num="147" count="13" type="stmt"/>
+        <line num="148" count="13" type="stmt"/>
+        <line num="149" count="13" type="stmt"/>
+        <line num="150" count="13" type="stmt"/>
+        <line num="151" count="13" type="stmt"/>
+        <line num="152" count="13" type="stmt"/>
+        <line num="153" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.AddressService">
+      <metrics statements="29" coveredstatements="29" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/AddressService/index.ts">
+        <metrics statements="29" coveredstatements="29" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="65" count="4" type="stmt"/>
+        <line num="66" count="4" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="72" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="82" count="14" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.AuthenticationService">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/AuthenticationService/index.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.AzureConfigurationService">
+      <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/AzureConfigurationService/index.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="25" count="392" type="stmt"/>
+        <line num="48" count="14" type="stmt"/>
+        <line num="67" count="14" type="stmt"/>
+        <line num="73" count="14" type="stmt"/>
+        <line num="97" count="14" type="stmt"/>
+        <line num="125" count="14" type="stmt"/>
+        <line num="149" count="14" type="stmt"/>
+        <line num="173" count="14" type="stmt"/>
+        <line num="197" count="14" type="stmt"/>
+        <line num="225" count="14" type="stmt"/>
+        <line num="245" count="14" type="stmt"/>
+        <line num="253" count="14" type="stmt"/>
+        <line num="254" count="28" type="stmt"/>
+        <line num="255" count="28" type="cond" truecount="1" falsecount="1"/>
+        <line num="256" count="28" type="stmt"/>
+        <line num="257" count="28" type="stmt"/>
+        <line num="267" count="28" type="stmt"/>
+        <line num="271" count="14" type="stmt"/>
+        <line num="275" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.BannerService">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/BannerService/index.ts">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ClassService">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ClassService/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ConfigService">
+      <metrics statements="171" coveredstatements="171" conditionals="28" coveredconditionals="28" methods="17" coveredmethods="17"/>
+      <file name="configAU.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configAU.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+      </file>
+      <file name="configHK.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configHK.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+      </file>
+      <file name="configIN.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configIN.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+      </file>
+      <file name="configMY.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configMY.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+      </file>
+      <file name="configNZ.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configNZ.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+      </file>
+      <file name="configSG.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configSG.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+      </file>
+      <file name="configTH.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configTH.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+      </file>
+      <file name="configTW.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/configTW.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+      </file>
+      <file name="globalConfig.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/globalConfig.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="74" count="11" type="stmt"/>
+        <line num="84" count="11" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/index.ts">
+        <metrics statements="38" coveredstatements="38" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="39" count="11" type="stmt"/>
+        <line num="50" count="11" type="stmt"/>
+        <line num="51" count="11" type="stmt"/>
+        <line num="52" count="11" type="stmt"/>
+        <line num="53" count="88" type="stmt"/>
+        <line num="54" count="440" type="stmt"/>
+        <line num="55" count="440" type="stmt"/>
+        <line num="59" count="440" type="stmt"/>
+        <line num="60" count="704" type="stmt"/>
+        <line num="62" count="440" type="stmt"/>
+        <line num="63" count="440" type="stmt"/>
+        <line num="66" count="11" type="stmt"/>
+        <line num="69" count="11" type="stmt"/>
+        <line num="72" count="113" type="stmt"/>
+        <line num="73" count="113" type="stmt"/>
+        <line num="82" count="11" type="stmt"/>
+        <line num="83" count="73" type="stmt"/>
+        <line num="84" count="73" type="cond" truecount="2" falsecount="0"/>
+        <line num="85" count="40" type="stmt"/>
+        <line num="86" count="40" type="stmt"/>
+        <line num="97" count="11" type="stmt"/>
+        <line num="98" count="11" type="stmt"/>
+        <line num="99" count="11" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/types.ts">
+        <metrics statements="73" coveredstatements="73" conditionals="26" coveredconditionals="26" methods="13" coveredmethods="13"/>
+        <line num="95" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="16" type="stmt"/>
+        <line num="97" count="16" type="stmt"/>
+        <line num="98" count="16" type="stmt"/>
+        <line num="99" count="16" type="stmt"/>
+        <line num="100" count="16" type="stmt"/>
+        <line num="103" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="16" type="stmt"/>
+        <line num="105" count="16" type="stmt"/>
+        <line num="106" count="16" type="stmt"/>
+        <line num="109" count="16" type="stmt"/>
+        <line num="117" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="118" count="16" type="stmt"/>
+        <line num="119" count="16" type="stmt"/>
+        <line num="120" count="16" type="stmt"/>
+        <line num="121" count="16" type="stmt"/>
+        <line num="122" count="16" type="stmt"/>
+        <line num="123" count="16" type="stmt"/>
+        <line num="124" count="16" type="stmt"/>
+        <line num="125" count="16" type="stmt"/>
+        <line num="128" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="129" count="16" type="stmt"/>
+        <line num="130" count="16" type="stmt"/>
+        <line num="131" count="16" type="stmt"/>
+        <line num="132" count="16" type="stmt"/>
+        <line num="133" count="16" type="stmt"/>
+        <line num="134" count="16" type="stmt"/>
+        <line num="135" count="16" type="stmt"/>
+        <line num="136" count="16" type="stmt"/>
+        <line num="139" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="16" type="stmt"/>
+        <line num="141" count="16" type="stmt"/>
+        <line num="142" count="16" type="stmt"/>
+        <line num="143" count="16" type="stmt"/>
+        <line num="144" count="16" type="stmt"/>
+        <line num="145" count="16" type="stmt"/>
+        <line num="146" count="16" type="stmt"/>
+        <line num="147" count="16" type="stmt"/>
+        <line num="150" count="16" type="stmt"/>
+        <line num="161" count="16" type="stmt"/>
+        <line num="169" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="170" count="16" type="stmt"/>
+        <line num="171" count="16" type="stmt"/>
+        <line num="174" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="175" count="16" type="stmt"/>
+        <line num="176" count="16" type="stmt"/>
+        <line num="177" count="16" type="stmt"/>
+        <line num="180" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="181" count="16" type="stmt"/>
+        <line num="182" count="16" type="stmt"/>
+        <line num="183" count="16" type="stmt"/>
+        <line num="186" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="187" count="16" type="stmt"/>
+        <line num="188" count="16" type="stmt"/>
+        <line num="189" count="16" type="stmt"/>
+        <line num="192" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="193" count="16" type="stmt"/>
+        <line num="194" count="16" type="stmt"/>
+        <line num="197" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="198" count="16" type="stmt"/>
+        <line num="199" count="16" type="stmt"/>
+        <line num="200" count="16" type="stmt"/>
+        <line num="201" count="16" type="stmt"/>
+        <line num="204" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="205" count="16" type="stmt"/>
+        <line num="206" count="16" type="stmt"/>
+        <line num="207" count="16" type="stmt"/>
+        <line num="208" count="16" type="stmt"/>
+        <line num="209" count="16" type="stmt"/>
+        <line num="210" count="16" type="stmt"/>
+        <line num="213" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="214" count="16" type="stmt"/>
+        <line num="215" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ConfigService.footer">
+      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="footerAU.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/footerAU.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="footerHK.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/footerHK.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="footerIN.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/footerIN.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="footerMY.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/footerMY.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="footerNZ.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/footerNZ.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="footerSG.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/footerSG.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="footerTW.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/footerTW.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="socialNetworksAU.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/socialNetworksAU.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="socialNetworksHK.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/socialNetworksHK.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="socialNetworksIN.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/socialNetworksIN.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="socialNetworksMY.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/socialNetworksMY.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="socialNetworksSG.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/socialNetworksSG.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="socialNetworksTW.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/footer/socialNetworksTW.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ConfigService.header">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="headerAU.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/header/headerAU.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="headerHK.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/header/headerHK.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="headerIN.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/header/headerIN.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="headerMY.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/header/headerMY.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="headerNZ.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/header/headerNZ.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="headerSG.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/header/headerSG.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="headerTW.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ConfigService/header/headerTW.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.CouponService">
+      <metrics statements="37" coveredstatements="37" conditionals="15" coveredconditionals="15" methods="6" coveredmethods="6"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/CouponService/index.ts">
+        <metrics statements="37" coveredstatements="37" conditionals="15" coveredconditionals="15" methods="6" coveredmethods="6"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="14" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="49" count="14" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="60" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="71" count="14" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="82" count="14" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="92" count="14" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="97" count="3" type="stmt"/>
+        <line num="103" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.DateService">
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/DateService/index.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="31" type="stmt"/>
+        <line num="9" count="31" type="stmt"/>
+        <line num="10" count="31" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="34" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.EmailService">
+      <metrics statements="29" coveredstatements="28" conditionals="16" coveredconditionals="15" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/EmailService/index.ts">
+        <metrics statements="29" coveredstatements="28" conditionals="16" coveredconditionals="15" methods="3" coveredmethods="3"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="56" count="14" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="64" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="14" type="stmt"/>
+        <line num="80" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.EmailValidationService">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/EmailValidationService/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.FeatureSwitchService">
+      <metrics statements="62" coveredstatements="62" conditionals="32" coveredconditionals="27" methods="16" coveredmethods="16"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/FeatureSwitchService/index.ts">
+        <metrics statements="38" coveredstatements="38" conditionals="16" coveredconditionals="11" methods="8" coveredmethods="8"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="26" count="14" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="30" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="44" count="14" type="stmt"/>
+        <line num="45" count="14" type="stmt"/>
+        <line num="52" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="11" type="stmt"/>
+        <line num="54" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="8" type="stmt"/>
+        <line num="62" count="8" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="68" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="78" count="11" type="stmt"/>
+        <line num="79" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="80" count="11" type="stmt"/>
+        <line num="83" count="11" type="stmt"/>
+        <line num="123" count="11" type="stmt"/>
+        <line num="131" count="11" type="stmt"/>
+        <line num="135" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="136" count="11" type="stmt"/>
+        <line num="140" count="14" type="stmt"/>
+        <line num="144" count="14" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/FeatureSwitchService/types.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="16" coveredconditionals="16" methods="8" coveredmethods="8"/>
+        <line num="21" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="13" type="stmt"/>
+        <line num="23" count="13" type="stmt"/>
+        <line num="26" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="28" count="13" type="stmt"/>
+        <line num="31" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="13" type="stmt"/>
+        <line num="33" count="13" type="stmt"/>
+        <line num="36" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="13" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="41" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="13" type="stmt"/>
+        <line num="43" count="13" type="stmt"/>
+        <line num="46" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="13" type="stmt"/>
+        <line num="48" count="13" type="stmt"/>
+        <line num="51" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="13" type="stmt"/>
+        <line num="53" count="13" type="stmt"/>
+        <line num="56" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="13" type="stmt"/>
+        <line num="58" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.FeedbackService">
+      <metrics statements="23" coveredstatements="22" conditionals="13" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/FeedbackService/index.ts">
+        <metrics statements="23" coveredstatements="22" conditionals="13" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="41" count="14" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="67" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.GeometryService">
+      <metrics statements="27" coveredstatements="24" conditionals="8" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/GeometryService/index.ts">
+        <metrics statements="27" coveredstatements="24" conditionals="8" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="57" count="14" type="stmt"/>
+        <line num="61" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.HTTPService">
+      <metrics statements="30" coveredstatements="30" conditionals="10" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <file name="HttpStatus.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/HTTPService/HttpStatus.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="23" type="stmt"/>
+        <line num="3" count="23" type="stmt"/>
+        <line num="4" count="23" type="stmt"/>
+        <line num="5" count="23" type="stmt"/>
+        <line num="6" count="23" type="stmt"/>
+        <line num="7" count="23" type="stmt"/>
+        <line num="8" count="23" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/HTTPService/index.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="6" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="37" count="14" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="57" count="14" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.JsonWebTokenService">
+      <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/JsonWebTokenService/index.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="34" count="11" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="54" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.LanguageService">
+      <metrics statements="79" coveredstatements="77" conditionals="27" coveredconditionals="24" methods="56" coveredmethods="52"/>
+      <file name="Language.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LanguageService/Language.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="17" type="stmt"/>
+        <line num="3" count="17" type="stmt"/>
+        <line num="4" count="17" type="stmt"/>
+      </file>
+      <file name="TranslationType.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LanguageService/TranslationType.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="15" type="stmt"/>
+        <line num="3" count="15" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LanguageService/index.ts">
+        <metrics statements="67" coveredstatements="65" conditionals="23" coveredconditionals="20" methods="52" coveredmethods="48"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="33" count="14" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="63" count="14" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="110" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="111" count="28" type="stmt"/>
+        <line num="115" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="116" count="28" type="stmt"/>
+        <line num="119" count="28" type="stmt"/>
+        <line num="124" count="16" type="stmt"/>
+        <line num="125" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="126" count="16" type="stmt"/>
+        <line num="127" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="128" count="16" type="stmt"/>
+        <line num="129" count="16" type="stmt"/>
+        <line num="130" count="16" type="stmt"/>
+        <line num="140" count="16" type="stmt"/>
+        <line num="141" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="142" count="13" type="stmt"/>
+        <line num="143" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="144" count="12" type="stmt"/>
+        <line num="145" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="146" count="12" type="stmt"/>
+        <line num="147" count="12" type="stmt"/>
+        <line num="148" count="12" type="stmt"/>
+        <line num="155" count="14" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="161" count="1" type="stmt"/>
+        <line num="167" count="14" type="stmt"/>
+        <line num="169" count="14" type="stmt"/>
+        <line num="170" count="4" type="stmt"/>
+        <line num="171" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="172" count="3" type="stmt"/>
+        <line num="173" count="3" type="stmt"/>
+        <line num="174" count="3" type="stmt"/>
+        <line num="179" count="3" type="stmt"/>
+        <line num="185" count="1" type="stmt"/>
+        <line num="189" count="14" type="stmt"/>
+        <line num="194" count="16" type="stmt"/>
+        <line num="198" count="16" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LanguageService/types.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="2" count="15" type="stmt"/>
+        <line num="31" count="286" type="stmt"/>
+        <line num="35" count="114" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.LegacyUserService">
+      <metrics statements="21" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="Gender.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LegacyUserService/Gender.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LegacyUserService/index.ts">
+        <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="49" count="14" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LegacyUserService/types.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="6" count="26" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.LegalAgeService">
+      <metrics statements="31" coveredstatements="31" conditionals="13" coveredconditionals="13" methods="3" coveredmethods="3"/>
+      <file name="LegalAgeRange.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LegalAgeService/LegalAgeRange.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LegalAgeService/index.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="11" count="24" type="stmt"/>
+        <line num="13" count="24" type="cond" truecount="5" falsecount="0"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="17" count="15" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+        <line num="24" count="15" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="31" count="15" type="stmt"/>
+        <line num="33" count="15" type="stmt"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="39" count="15" type="stmt"/>
+        <line num="41" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="53" count="14" type="stmt"/>
+        <line num="57" count="14" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LegalAgeService/types.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="3" count="26" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.LegalPoliciesService">
+      <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LegalPoliciesService/index.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="14" type="stmt"/>
+        <line num="55" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.LineService">
+      <metrics statements="19" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LineService/index.ts">
+        <metrics statements="19" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="14" type="stmt"/>
+        <line num="42" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.LoggerService">
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/LoggerService/index.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="3" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="5" count="15" type="stmt"/>
+        <line num="6" count="15" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="11" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="22" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.PhoneService">
+      <metrics statements="40" coveredstatements="39" conditionals="16" coveredconditionals="15" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/PhoneService/index.ts">
+        <metrics statements="40" coveredstatements="39" conditionals="16" coveredconditionals="15" methods="4" coveredmethods="4"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="14" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="78" count="14" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="88" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="100" count="14" type="stmt"/>
+        <line num="104" count="2" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="107" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="117" count="14" type="stmt"/>
+        <line num="124" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.PhoneValidationService">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/PhoneValidationService/index.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="33" type="stmt"/>
+        <line num="6" count="33" type="stmt"/>
+        <line num="8" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="32" type="stmt"/>
+        <line num="14" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.PointsService">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/PointsService/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ProductService">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/ProductService/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.RegistrationService">
+      <metrics statements="55" coveredstatements="44" conditionals="24" coveredconditionals="20" methods="7" coveredmethods="5"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/RegistrationService/index.ts">
+        <metrics statements="55" coveredstatements="44" conditionals="24" coveredconditionals="20" methods="7" coveredmethods="5"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="18" count="14" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="57" count="14" type="stmt"/>
+        <line num="58" count="14" type="stmt"/>
+        <line num="59" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="79" count="3" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="88" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="100" count="14" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="106" count="14" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="125" count="14" type="stmt"/>
+        <line num="131" count="3" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="139" count="3" type="stmt"/>
+        <line num="141" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="145" count="1" type="stmt"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="154" count="14" type="stmt"/>
+        <line num="162" count="2" type="stmt"/>
+        <line num="169" count="2" type="stmt"/>
+        <line num="170" count="2" type="stmt"/>
+        <line num="172" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.SWService">
+      <metrics statements="50" coveredstatements="44" conditionals="36" coveredconditionals="25" methods="19" coveredmethods="16"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/SWService/index.ts">
+        <metrics statements="50" coveredstatements="44" conditionals="36" coveredconditionals="25" methods="19" coveredmethods="16"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="28" count="14" type="stmt"/>
+        <line num="32" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="50" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="72" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="77" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="82" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="92" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="104" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="122" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="128" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="141" count="2" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="152" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="153" count="1" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="163" count="14" type="stmt"/>
+        <line num="165" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.SanitizeHtmlService">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/SanitizeHtmlService/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.SessionService">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/SessionService/index.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="14" type="stmt"/>
+        <line num="36" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.SettingsService">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/SettingsService/index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="32" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.StoreService">
+      <metrics statements="23" coveredstatements="23" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/StoreService/index.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="43" count="14" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="50" count="14" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="69" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.StringService">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/StringService/index.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="16" type="stmt"/>
+        <line num="2" count="37" type="stmt"/>
+        <line num="3" count="37" type="stmt"/>
+        <line num="6" count="16" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.TrackingService">
+      <metrics statements="31" coveredstatements="28" conditionals="22" coveredconditionals="17" methods="8" coveredmethods="7"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/TrackingService/index.ts">
+        <metrics statements="31" coveredstatements="28" conditionals="22" coveredconditionals="17" methods="8" coveredmethods="7"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="52" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="68" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="80" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="90" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="103" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="116" count="14" type="stmt"/>
+        <line num="127" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.TransactionService">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/TransactionService/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.UserService">
+      <metrics statements="46" coveredstatements="44" conditionals="21" coveredconditionals="17" methods="9" coveredmethods="9"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/UserService/index.ts">
+        <metrics statements="42" coveredstatements="40" conditionals="19" coveredconditionals="15" methods="8" coveredmethods="8"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="31" count="14" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="14" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="28" type="stmt"/>
+        <line num="49" count="16" type="stmt"/>
+        <line num="50" count="16" type="stmt"/>
+        <line num="51" count="16" type="stmt"/>
+        <line num="52" count="16" type="cond" truecount="3" falsecount="0"/>
+        <line num="55" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="14" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="77" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="87" count="14" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="95" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="99" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="107" count="14" type="stmt"/>
+        <line num="116" count="14" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/UserService/types.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="6" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="13" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="16" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.UtilityService">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/UtilityService/index.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.WindowService">
+      <metrics statements="47" coveredstatements="45" conditionals="16" coveredconditionals="14" methods="17" coveredmethods="16"/>
+      <file name="MobileDevice.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/WindowService/MobileDevice.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="16" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/WindowService/index.ts">
+        <metrics statements="41" coveredstatements="39" conditionals="14" coveredconditionals="12" methods="15" coveredmethods="14"/>
+        <line num="1" count="16" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="33" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="16" type="stmt"/>
+        <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="16" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="16" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="16" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="65" count="16" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="69" count="16" type="stmt"/>
+        <line num="70" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="73" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="85" count="16" type="stmt"/>
+        <line num="86" count="16" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="93" count="16" type="stmt"/>
+        <line num="94" count="15" type="stmt"/>
+        <line num="95" count="15" type="stmt"/>
+        <line num="100" count="14" type="stmt"/>
+        <line num="104" count="16" type="stmt"/>
+        <line num="111" count="16" type="stmt"/>
+        <line num="130" count="16" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/WindowService/types.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="16" type="stmt"/>
+        <line num="3" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.errors">
+      <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="GlobalError.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/errors/GlobalError.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="14" count="25" type="stmt"/>
+        <line num="15" count="25" type="stmt"/>
+        <line num="19" count="25" type="stmt"/>
+        <line num="21" count="25" type="stmt"/>
+        <line num="22" count="25" type="stmt"/>
+      </file>
+      <file name="InvalidFormSubmissionError.ts" path="/Users/philipsiyanbola/Documents/jnj/myacuvue_thailand_web/packages/services/src/errors/InvalidFormSubmissionError.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="15" count="19" type="stmt"/>
+        <line num="16" count="22" type="stmt"/>
+        <line num="19" count="22" type="stmt"/>
+        <line num="20" count="22" type="stmt"/>
+        <line num="27" count="22" type="stmt"/>
+        <line num="28" count="22" type="stmt"/>
+        <line num="29" count="22" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="38" count="22" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

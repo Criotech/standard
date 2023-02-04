@@ -1,0 +1,28 @@
+.empty-cart-view {
+	margin: 0 15px;
+
+	.magnifying-glass-on-sheet-image {
+		padding-top: 40px;
+		margin: 0 105px;
+
+		img {
+			width: 180px;
+			height: 180px;
+		}
+	}
+
+	.browse-rewards-button-wrapper {
+		text-align: center;
+		margin: 40px 15px;
+
+		button {
+			width: 100%;
+		}
+	}
+
+	.rewards-description {
+		margin-top: 40px;
+		display: flex;
+		font-size: 16px;
+	}
+}

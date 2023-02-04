@@ -1,0 +1,15 @@
+.acuvue-icon-with-link {
+	.link {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+		.link-text {
+			margin-top: 16px;
+			color: var(--color-brand-blue-1);
+			font-size: 14px;
+			font-weight: 500;
+			margin-bottom: 0;
+		}
+	}
+}

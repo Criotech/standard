@@ -1,0 +1,32 @@
+.acuvue-select-store-button {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 8px;
+
+	.circle-button {
+		.plus-icon {
+			stroke: var(--color-brand-blue-1);
+			stroke-width: 70;
+		}
+
+		&:disabled {
+			.plus-icon {
+				stroke: var(--color-semantic-disabled-grey-2) !important;
+			}
+		}
+
+		&:hover {
+			.plus-icon {
+				stroke: var(--color-brand-blue-2) !important;
+			}
+		}
+	}
+
+	.select-store-text {
+		font-size: 14px;
+		font-weight: 500;
+		color: var(--color-brand-blue-1);
+		text-align: center;
+	}
+}

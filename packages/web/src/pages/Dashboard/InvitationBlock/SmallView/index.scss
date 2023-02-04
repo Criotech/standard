@@ -1,0 +1,55 @@
+.small-view {
+	background: linear-gradient(
+		180deg,
+		var(--color-functional-background-white) -20%,
+		var(--color-accent-sky-blue) 180%
+	);
+	padding: 16px;
+	color: var(--color-brand-blue-1);
+
+	.title {
+		line-height: 23px;
+		font-size: 16px;
+		font-weight: 500;
+		margin-bottom: 16px;
+		color: var(--color-brand-blue-1);
+	}
+
+	.body {
+		font-weight: 300;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+
+	.image-and-download-links {
+		display: flex;
+		align-items: center;
+
+		.image {
+			width: 155px;
+			height: 132px;
+			margin-bottom: -23px;
+			margin-left: 4px;
+			object-fit: contain;
+		}
+
+		.links {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+			justify-content: center;
+			width: 100%;
+			text-align: center;
+
+			.appstore-image,
+			.playstore-image {
+				height: 30px;
+				width: 94px;
+			}
+
+			.appstore-image {
+				margin-top: 10px;
+			}
+		}
+	}
+}

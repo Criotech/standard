@@ -1,0 +1,18 @@
+.acuvue-mega-menu-list-item {
+	font-size: 14px;
+	list-style-image: none;
+	list-style-type: none;
+
+	a {
+		color: var(--color-functional-background-white);
+	}
+
+	a:hover {
+		color: var(--color-accent-sky-blue);
+	}
+
+	.chevron-right-icon {
+		position: relative;
+		top: 2px;
+	}
+}

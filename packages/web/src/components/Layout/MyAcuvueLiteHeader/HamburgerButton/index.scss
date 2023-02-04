@@ -1,0 +1,68 @@
+.acuvue-hamburger-button {
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	height: 45px;
+	width: 45px;
+
+	.hamburger-icon {
+		position: absolute;
+		left: 10px;
+		top: 16px;
+		width: 28px;
+		height: 2px;
+		background: var(--color-brand-blue-1);
+		cursor: pointer;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -8px;
+			right: 0;
+			width: 28px;
+			height: 2px;
+			background: var(--color-brand-blue-1);
+			border-radius: 5px;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 8px;
+			right: 0;
+			width: 28px;
+			height: 2px;
+			background: var(--color-brand-blue-1);
+			border-radius: 5px;
+		}
+
+		&.open {
+			transform: rotate(450deg);
+			background: var(--color-brand-blue-1);
+			width: 30px;
+			height: 30px;
+			border-radius: 15px;
+			top: 2px;
+
+			&::before {
+				width: 21px;
+				transform: rotate(45deg) translate(5px, 8px);
+				top: 5px;
+				background: var(--color-functional-background-white);
+				left: 7px;
+			}
+
+			&::after {
+				width: 21px;
+				transform: rotate(-45deg) translate(3px, -7px);
+				top: 21px;
+				background: var(--color-functional-background-white);
+				left: 8px;
+			}
+
+			&:hover {
+				background-color: var(--color-accent-sky-blue);
+			}
+		}
+	}
+}

@@ -1,0 +1,119 @@
+.acuvue-greetings-block {
+	background: linear-gradient(
+		180deg,
+		var(--color-functional-background-white) -10%,
+		var(--color-brand-blue-1) 250%
+	);
+	align-items: center;
+	padding: 16px;
+	position: relative;
+	display: grid;
+	overflow: hidden;
+	box-shadow: 0 2px 6px #00000026;
+
+	.circle-decoration-icon-wrapper {
+		width: 100%;
+		height: 100%;
+		min-width: max-content;
+		padding: 18px 0;
+		position: absolute;
+		justify-self: center;
+		overflow: hidden;
+
+		.circle-decoration-icon {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.content-wrapper {
+		position: relative;
+		align-items: center;
+		width: 100%;
+
+		.greetings-section {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			z-index: 1;
+			width: 100%;
+			color: var(--color-brand-blue-1);
+
+			.greetings-text {
+				color: var(--color-brand-blue-1);
+				font-family: var(--font-family-member-name);
+				font-weight: 400;
+				font-size: 24px;
+				text-transform: uppercase;
+				margin-bottom: 0;
+				flex: 1;
+			}
+
+			.profile-details-link {
+				display: flex;
+				align-items: center;
+			}
+
+			.profile-details-text {
+				color: var(--color-brand-blue-1);
+				margin: 0;
+			}
+		}
+
+		.membership-and-wallet-section {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+			width: 100%;
+
+			.membership-block,
+			.wallet-block {
+				flex: 1;
+			}
+		}
+
+		.promocode-and-feedback-section {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+			flex-basis: 100%;
+		}
+	}
+}
+
+.wide-screen .acuvue-greetings-block {
+	padding: 24px;
+
+	.circle-decoration-icon-wrapper {
+		min-width: 100%;
+		display: flex;
+		align-items: center;
+		padding: 0 20%;
+		height: unset;
+
+		.circle-decoration-icon {
+			width: 100%;
+		}
+	}
+
+	.content-wrapper {
+		.membership-and-wallet-section {
+			flex-direction: row;
+		}
+
+		.promocode-and-feedback-section {
+			flex-direction: row;
+			align-items: stretch;
+		}
+
+		.greetings-section {
+			margin-bottom: 16px;
+
+			.greetings-text {
+				flex: none;
+				margin-right: 25px;
+				font-size: 28px;
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.desktop-membership {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	.acuvue-image-and-acuvue-rewards {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		font-size: 12px;
+		font-weight: 400;
+		color: var(--color-functional-soft-black);
+		gap: 8px;
+
+		.acuvue-logo {
+			width: 16px;
+			height: 16px;
+		}
+
+		.rewards-text {
+			white-space: nowrap;
+		}
+	}
+
+	.action-buttons-wrapper {
+		display: flex;
+		height: 24px;
+		align-items: center;
+		justify-content: space-between;
+
+		a {
+			flex: 1;
+			margin: 0;
+			padding: 0;
+			color: var(--color-brand-blue-1);
+			font-weight: 500;
+
+			&:hover {
+				color: var(--color-accent-sky-blue);
+			}
+		}
+	}
+}

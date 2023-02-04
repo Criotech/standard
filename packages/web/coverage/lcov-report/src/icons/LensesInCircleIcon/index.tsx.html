@@ -1,0 +1,236 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/icons/LensesInCircleIcon/index.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/icons/LensesInCircleIcon</a> index.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>4/4</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>2/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>4/4</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import Icon from "@ant-design/icons";
+import { FC } from "react";
+&nbsp;
+const LensesInCircleSvg: FC&lt;{}&gt; = (props) =&gt; (
+	&lt;svg xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 76 76"&gt;
+		&lt;g transform="translate(12801 12541)"&gt;
+			&lt;circle
+				cx="38"
+				cy="38"
+				r="38"
+				transform="translate(-12801 -12541)"
+			/&gt;
+			&lt;g fill="#fff"&gt;
+				&lt;g&gt;
+					&lt;g&gt;
+						&lt;path d="M-12781.689-12489.493a15.463 15.463 0 0 1-4.139-.53 8.528 8.528 0 0 1-3.817-2.1 1.2 1.2 0 0 1-.261-.424 3.307 3.307 0 0 1 .512-2.512 23.984 23.984 0 0 1 2.21-3.419 91.444 91.444 0 0 1 17.3-16.875 25.282 25.282 0 0 1 3.548-2.187 3.713 3.713 0 0 1 2.613-.534 1.245 1.245 0 0 1 .777.708 21.877 21.877 0 0 1 1.676 6.4 18.383 18.383 0 0 1-.621 7.039l-1.258-.368a17.086 17.086 0 0 0 .575-6.54 20.571 20.571 0 0 0-1.569-5.995c-.075-.019-.481-.077-1.627.473a24.032 24.032 0 0 0-3.355 2.072 90.161 90.161 0 0 0-17.008 16.593 22.744 22.744 0 0 0-2.088 3.221c-.544 1.083-.467 1.428-.458 1.46a7.274 7.274 0 0 0 3.207 1.727 14.813 14.813 0 0 0 4.772.452 19.69 19.69 0 0 0 5.474-1.122 19.916 19.916 0 0 0 5.359-2.881l.791 1.045a21.221 21.221 0 0 1-5.711 3.071 21 21 0 0 1-5.839 1.2c-.358.012-.712.026-1.063.026Z" /&gt;
+						&lt;path d="m-12788.971-12492.209-.646-1.14a73.248 73.248 0 0 0 8.911-5.753 66.732 66.732 0 0 0 16.129-18.489l1.127.669a68.04 68.04 0 0 1-16.446 18.85 74.451 74.451 0 0 1-9.075 5.863Z" /&gt;
+					&lt;/g&gt;
+					&lt;path d="M-12765.486-12503.623a.216.216 0 0 1-.08-.015.218.218 0 0 1-.123-.283 14.439 14.439 0 0 0 .905-7.056.2183.2183 0 0 1 .434-.048 14.866 14.866 0 0 1-.933 7.265.218.218 0 0 1-.203.137Z" /&gt;
+				&lt;/g&gt;
+				&lt;g&gt;
+					&lt;g&gt;
+						&lt;path d="M-12754.263-12487.848h-.316a20.766 20.766 0 0 1-7.116-1.369 21.653 21.653 0 0 1-5.78-3.29 17.062 17.062 0 0 1-3.9-4.325 8.8 8.8 0 0 1-1.44-4.571 1.193 1.193 0 0 1 .116-.486c.2-.448.76-1.116 3.244-1.728a42.239 42.239 0 0 1 6.358-.923c2.265-.184 4.726-.277 7.314-.277.466 0 .941 0 1.411.009a82.16 82.16 0 0 1 11.953.949 25.279 25.279 0 0 1 4.055.963 3.713 3.713 0 0 1 2.225 1.47 1.243 1.243 0 0 1 .049 1.051 20.721 20.721 0 0 1-6.3 8.628 17.8 17.8 0 0 1-5.2 2.834 20.391 20.391 0 0 1-6.673 1.065Zm-17.247-13.5c-.009 2.42 1.847 5.411 4.853 7.819a20.327 20.327 0 0 0 5.426 3.088 19.461 19.461 0 0 0 6.668 1.284h.3a17.432 17.432 0 0 0 11.057-3.622 19.407 19.407 0 0 0 5.888-8.067c-.04-.067-.287-.395-1.485-.816a24.027 24.027 0 0 0-3.838-.907 80.841 80.841 0 0 0-11.754-.931c-.464-.006-.933-.009-1.393-.009-2.553 0-4.978.092-7.208.273a40.958 40.958 0 0 0-6.15.889c-2.073.511-2.349.968-2.365.996Z" /&gt;
+						&lt;path d="M-12753.825-12498.247a66.627 66.627 0 0 1-7.894-.469 74.4 74.4 0 0 1-10.563-2.272l.349-1.263a73.212 73.212 0 0 0 10.369 2.234 66.74 66.74 0 0 0 24.479-1.669l.324 1.27a68.967 68.967 0 0 1-17.064 2.169Z" /&gt;
+					&lt;/g&gt;
+					&lt;path d="M-12755.383-12490.894a.2185.2185 0 0 1 0-.437 19.933 19.933 0 0 0 7.847-1.477 14.443 14.443 0 0 0 5.63-4.35.2184.2184 0 1 1 .341.273 14.868 14.868 0 0 1-5.8 4.477 20.357 20.357 0 0 1-8.016 1.513Z" /&gt;
+				&lt;/g&gt;
+			&lt;/g&gt;
+		&lt;/g&gt;
+	&lt;/svg&gt;
+);
+&nbsp;
+export enum IconSize {
+	MINI = "24px",
+	SMALL = "40px",
+	MEDIUM = "48px",
+	LARGE = "76px",
+}
+&nbsp;
+type Props = {
+	color?: string;
+	size?: IconSize;
+};
+&nbsp;
+const LensesInCircleIcon: FC&lt;Props&gt; = ({
+	size = IconSize.MEDIUM,
+	color,
+}: Props) =&gt; (
+	&lt;Icon component={LensesInCircleSvg} style={{ fontSize: size, color }} /&gt;
+);
+&nbsp;
+export default LensesInCircleIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Mon Dec 19 2022 13:05:41 GMT+0100 (West Africa Standard Time)
+            </div>
+        </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

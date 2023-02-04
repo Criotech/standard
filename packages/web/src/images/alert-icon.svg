@@ -1,0 +1,26 @@
+<svg data-name="Deco Icon Alert" xmlns="http://www.w3.org/2000/svg" width="180" height="180">
+	<defs>
+		<linearGradient id="a" x1=".5" y1="-.183" x2=".5" y2="2.144" gradientUnits="objectBoundingBox">
+			<stop offset="0" stop-color="#f2f6fa"/>
+			<stop offset=".124" stop-color="#edf2f8"/>
+			<stop offset=".252" stop-color="#e1e8f2"/>
+			<stop offset=".383" stop-color="#ccd7e8"/>
+			<stop offset=".514" stop-color="#afbfda"/>
+			<stop offset=".648" stop-color="#89a0c8"/>
+			<stop offset=".782" stop-color="#5c7bb2"/>
+			<stop offset=".914" stop-color="#264f99"/>
+			<stop offset="1" stop-color="#003087"/>
+		</linearGradient>
+	</defs>
+	<g>
+		<path
+			d="M77.136 22.347l-61.3 106.839a6.234 6.234 0 005.364 9.348h122.6a6.233 6.233 0 005.364-9.348l-61.3-106.839a6.176 6.176 0 00-10.728 0z"
+			transform="translate(7.5 9.615)" fill="url(#a)"/>
+		<g transform="translate(85.5 78)" fill="#003087">
+			<circle cx="4.674" cy="4.674" r="4.674" transform="translate(0 36.472)"/>
+			<path
+				d="M4.674 0A4.63 4.63 0 000 4.576v20.606a4.675 4.675 0 009.348 0V4.577A4.63 4.63 0 004.674 0z"/>
+		</g>
+	</g>
+	<path fill="none" d="M0 0h180v180H0z"/>
+</svg>

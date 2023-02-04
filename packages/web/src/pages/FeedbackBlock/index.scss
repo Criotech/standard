@@ -1,0 +1,26 @@
+.acuvue-feedback-block {
+	background-color: var(--color-functional-background-white);
+	box-shadow: 0 2px 6px #00000026;
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+
+	.feedback-block-title {
+		color: #013088;
+		font-size: 16px;
+		line-height: 25.51px;
+	}
+
+	.feedback-block-sub-title {
+		margin-top: 10px;
+	}
+}
+
+.wide-screen .acuvue-feedback-block {
+	padding: 16px;
+
+	.feedback-block-title {
+		font-size: 26px;
+	}
+}

@@ -1,0 +1,18 @@
+.minus-button {
+	.minus-icon {
+		stroke-width: 70;
+		stroke: var(--color-brand-blue-1);
+	}
+
+	&:disabled {
+		.minus-icon {
+			stroke: var(--color-semantic-disabled-grey-2) !important;
+		}
+	}
+
+	&:hover {
+		.minus-icon {
+			stroke: var(--color-brand-blue-2);
+		}
+	}
+}

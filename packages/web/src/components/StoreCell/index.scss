@@ -1,0 +1,52 @@
+.store-cell {
+	margin: 12px;
+	height: auto;
+
+	.store-name {
+		font-size: 14px;
+		font-weight: 500;
+		color: var(--color-functional-soft-black);
+	}
+
+	.store-address {
+		text-align: left;
+		width: 70%;
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+	.store-delivery-eligibility {
+		font-size: 12px;
+		font-weight: 400;
+		padding-left: 5px;
+	}
+
+	.store-opening-hours {
+		width: 50%;
+		display: inline-block;
+	}
+
+	.store-telephone {
+		float: right;
+		text-align: left;
+		width: 50%;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+
+	.opening-hour-label,
+	.telephone-label {
+		font-size: 10px;
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+
+	.opening-hours,
+	.telephone {
+		color: var(--color-functional-dark-grey);
+		font-size: 12px;
+		font-weight: 500;
+	}
+}

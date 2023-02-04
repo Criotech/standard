@@ -1,0 +1,22 @@
+.acuvue-mobile-block {
+	.title {
+		margin-top: 32px;
+		margin-bottom: 20px;
+	}
+
+	.profile-table {
+		margin-bottom: 30px;
+
+		tr {
+			td:first-child {
+				font-weight: 500;
+				padding-right: 44px;
+			}
+		}
+	}
+
+	.update-button {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+}

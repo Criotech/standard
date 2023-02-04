@@ -1,0 +1,80 @@
+.acuvue-step {
+	width: 100%;
+	text-align: center;
+
+	p {
+		display: block;
+		color: var(--color-functional-dark-grey);
+		line-height: 1.4;
+	}
+
+	span {
+		font-weight: 500;
+		border-style: solid;
+		color: var(--color-functional-dark-grey);
+		border-radius: 50%;
+		width: 32px;
+		height: 32px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-width: 2px;
+		background-color: var(--color-functional-background-white);
+		z-index: 2;
+		margin-bottom: 8px;
+	}
+
+	&.acuvue-step-active {
+		span,
+		p {
+			font-weight: 500;
+			line-height: 1.2;
+			color: var(--color-brand-blue-1);
+		}
+
+		span {
+			border-color: var(--color-brand-blue-1);
+			margin-bottom: 8px;
+		}
+	}
+
+	&.acuvue-step-finished {
+		p {
+			color: var(--color-functional-soft-black);
+		}
+
+		span {
+			color: var(--color-functional-background-white);
+			border-color: var(--color-brand-blue-1);
+			background-color: var(--color-brand-blue-1);
+		}
+
+		div.step-number-wrapper::after {
+			background-color: var(--color-brand-blue-1);
+		}
+	}
+
+	.step-number-wrapper {
+		position: relative;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+	}
+
+	&:not(.acuvue-step-last) {
+		.step-number-wrapper::after {
+			position: absolute;
+			top: 16px;
+			left: 50%;
+			display: block;
+			width: 100%;
+			height: 2px;
+			background-color: var(--color-functional-light-grey);
+			content: "";
+			box-sizing: border-box;
+			z-index: 1;
+		}
+	}
+}

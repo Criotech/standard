@@ -1,0 +1,68 @@
+.acuvue-edit-address-with-no-city-no-state {
+	width: 100%;
+	background-image: url("../../images/gray-circles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.content-wrapper {
+		max-width: 416px;
+		margin: 0 auto 48px auto;
+		padding: 0 16px;
+
+		.edit-address-title {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 40px 0;
+		}
+
+		.address-text-label {
+			font-weight: 500;
+			color: var(--color-brand-blue-1);
+			margin-top: 35px;
+			margin-bottom: 15px;
+		}
+	}
+
+	.update-button,
+	.cancel-button {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+
+	.address-form-title {
+		color: var(--color-brand-blue-1);
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 16px;
+	}
+
+	.address-detail-item {
+		color: var(--color-functional-soft-black);
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 16px;
+
+		.text-label {
+			display: inline-block;
+			width: 120px;
+		}
+
+		.text {
+			font-weight: 400;
+		}
+	}
+}
+
+.wide-screen .acuvue-edit-address-with-no-city-no-state {
+	.content-wrapper {
+		margin: 0 auto 97px auto;
+
+		.edit-address-title {
+			margin-top: 48px;
+			margin-bottom: 60px;
+		}
+	}
+}

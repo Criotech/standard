@@ -1,0 +1,58 @@
+.typography-heading-1 {
+	font-size: 50px;
+	font-weight: var(--font-weight-regular);
+	font-family: var(--font-family-heading-1);
+	text-transform: uppercase;
+
+	@media (min-width: 1024px) {
+		font-size: 64px;
+	}
+}
+
+.typography-heading-2 {
+	font-size: 20px;
+	font-weight: var(--font-weight-medium);
+	font-family: var(--font-family-heading-2);
+
+	@media (min-width: 1024px) {
+		font-size: 28px;
+	}
+}
+
+.typography-heading-3 {
+	font-size: 18px;
+	font-weight: var(--font-weight-medium);
+	font-family: var(--font-family-heading-3);
+}
+
+.typography-heading-overline {
+	font-size: 14px;
+	font-weight: var(--font-weight-medium);
+	font-family: var(--font-family-heading-overline);
+	text-transform: uppercase;
+}
+
+.typography-body-1 {
+	font-size: 16px;
+	font-weight: var(--font-weight-light);
+	font-family: var(--font-family-body-1);
+}
+
+.typography-body-2 {
+	font-size: 14px;
+	font-weight: var(--font-weight-regular);
+	font-family: var(--font-family-body-2);
+}
+
+.typography-caption {
+	font-size: 12px;
+	font-weight: var(--font-weight-regular);
+	font-family: var(--font-family-caption);
+}
+
+.typography-overline {
+	font-size: 12px;
+	font-weight: var(--font-weight-medium);
+	font-family: var(--font-family-overline);
+	text-transform: uppercase;
+}

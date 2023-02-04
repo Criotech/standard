@@ -1,0 +1,20 @@
+<svg id="Deco._Icon_Points" data-name="Deco. Icon Points" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.298" x2="0.5" y2="1.789" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f6fa"/>
+      <stop offset="0.124" stop-color="#edf2f8"/>
+      <stop offset="0.252" stop-color="#e1e8f2"/>
+      <stop offset="0.383" stop-color="#ccd7e8"/>
+      <stop offset="0.514" stop-color="#afbfda"/>
+      <stop offset="0.648" stop-color="#89a0c8"/>
+      <stop offset="0.782" stop-color="#5c7bb2"/>
+      <stop offset="0.914" stop-color="#264f99"/>
+      <stop offset="1" stop-color="#003087"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_444" data-name="Rectangle 444" width="180" height="180" transform="translate(180) rotate(90)" fill="none"/>
+  <g id="Group_2236" data-name="Group 2236" transform="translate(30 30)">
+    <circle id="Ellipse_136" data-name="Ellipse 136" cx="60" cy="60" r="60" fill="url(#linear-gradient)"/>
+    <path id="Path_4823" data-name="Path 4823" d="M99.911,56.478a3.717,3.717,0,0,0-3.02-2.546L84.1,52.071,78.372,40.479A3.709,3.709,0,0,0,75.025,38.4h0a3.718,3.718,0,0,0-3.354,2.082L65.947,52.071,53.153,53.931a3.74,3.74,0,0,0-2.075,6.38l9.258,9.023L58.153,82.076a3.738,3.738,0,0,0,5.424,3.943L75.02,80l11.445,6.018a3.769,3.769,0,0,0,1.741.431,3.745,3.745,0,0,0,3.684-4.374L89.705,69.334l9.255-9.021A3.73,3.73,0,0,0,99.911,56.478Z" transform="translate(-14.768 -2.425)" fill="#003087"/>
+  </g>
+</svg>

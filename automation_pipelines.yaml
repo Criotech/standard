@@ -1,0 +1,6 @@
+# Specify which service to subscribe to. This should not be changed
+- service: eat-jenkins
+  # This is the environemt of automation_piplines not environment of application or Jenkins
+  environment: Production
+  teamKey: tawd
+  jenkinsType: dev

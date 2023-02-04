@@ -1,0 +1,31 @@
+.address-section {
+	width: 100%;
+
+	.address-section-title {
+		margin-bottom: 29px;
+	}
+
+	.address-section-content {
+		display: flex;
+		padding-top: 0;
+		gap: 60px;
+
+		.text-label {
+			width: 59px;
+			margin-top: 0;
+			line-height: 18px;
+		}
+
+		.text {
+			p {
+				line-height: 18px;
+				margin: 0;
+			}
+		}
+	}
+
+	.update-address-button {
+		width: 100%;
+		margin-top: 32px;
+	}
+}

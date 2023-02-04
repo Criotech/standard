@@ -1,0 +1,58 @@
+.edit-profile-form {
+	.input-items-wrapper {
+		display: block;
+	}
+
+	.acuvue-btn {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+
+	.profile-detail-item {
+		color: var(--color-functional-soft-black);
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 16px;
+
+		.text-label {
+			display: inline-block;
+			width: 120px;
+		}
+
+		.text {
+			font-weight: 400;
+		}
+	}
+
+	.member-support-text-wrapper {
+		display: flex;
+		align-items: center;
+		color: var(--color-functional-soft-black);
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 24px;
+
+		.member-support-text {
+			margin-left: 8px;
+		}
+
+		.member-support-email {
+			font-size: 12px;
+			color: var(--color-brand-blue-1);
+			text-decoration: underline;
+		}
+	}
+}
+
+.wide-screen .edit-profile-form {
+	.input-items-wrapper {
+		display: flex;
+		gap: 16px;
+
+		.input-wrapper {
+			width: 50%;
+		}
+	}
+}

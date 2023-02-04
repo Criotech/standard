@@ -1,0 +1,54 @@
+.transaction-cell {
+	margin: 0 12px 0 6px;
+	text-align: center;
+	height: auto;
+
+	.transaction-time,
+	.transaction-product-description {
+		margin-bottom: 0;
+	}
+
+	.transaction-details {
+		text-align: left;
+		width: 100%;
+		display: inline-block;
+
+		.transaction-header {
+			display: flex;
+		}
+
+		h2 {
+			font-size: 16px;
+			color: var(--color-functional-soft-black);
+			width: 100%;
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+		.transaction-description {
+			margin-bottom: 0;
+			font-size: 12px;
+		}
+
+		.transaction-category {
+			text-transform: uppercase;
+			font-size: 10px;
+		}
+	}
+
+	.transaction-points {
+		width: 25%;
+		float: right;
+		text-align: right;
+
+		.earned-points {
+			color: var(--color-semantic-success-green-3);
+		}
+
+		.redeemed-points {
+			color: var(--color-functional-dark-grey);
+		}
+	}
+}

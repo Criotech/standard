@@ -1,0 +1,129 @@
+.acuvue-mobile-menu {
+	background: #3d3d47;
+
+	&.hidden {
+		display: none;
+	}
+
+	.menu-item {
+		color: var(--color-accent-sky-blue);
+		font-size: 16px;
+		font-weight: 400;
+
+		.ant-menu-inline .ant-menu-item::after {
+			display: none;
+		}
+
+		.ant-menu-title-content {
+			list-style-type: none;
+
+			a > span {
+				display: flex;
+				width: 100%;
+				padding-right: 18px;
+				justify-content: space-between;
+				align-items: center;
+			}
+		}
+
+		.ant-menu-submenu-title {
+			margin: 0;
+			background-color: #3d3d47;
+			border-right-width: 0 !important;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+			border-bottom-color: #000000;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-transform: uppercase;
+
+			&:hover {
+				background-color: var(--color-accent-sky-blue);
+				color: var(--color-functional-background-white) !important;
+			}
+
+			.ant-menu-title-content {
+				word-break: break-word;
+				white-space: normal;
+				word-wrap: break-word;
+				line-height: initial;
+				padding-right: 12px;
+
+				a > span {
+					font-size: 10px !important;
+				}
+			}
+		}
+
+		.link-group {
+			background-color: #3d3d47;
+			color: var(--color-functional-background-white);
+			font-size: 12px;
+
+			span {
+				text-transform: capitalize;
+			}
+		}
+
+		.ant-menu-item-only-child {
+			margin: 0;
+			background-color: #3d3d47 !important;
+			font-size: 10px;
+			padding: 30px 16px 30px 0;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+			border-bottom-color: #000000;
+			font-weight: 400;
+
+			a > span {
+				color: var(--color-functional-background-white);
+				align-items: center;
+				display: flex;
+				width: 100%;
+				padding-right: 18px;
+				justify-content: space-between;
+				text-transform: uppercase !important;
+				font-size: 12px;
+				white-space: break-spaces;
+				line-height: 20px;
+			}
+
+			&:hover {
+				background-color: var(--color-accent-sky-blue);
+			}
+		}
+	}
+
+	> .ant-menu-item-only-child {
+		margin: 0;
+		background-color: #3d3d47;
+		font-size: 10px;
+		padding: 30px 16px 30px 0;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #000000;
+		font-weight: 400;
+
+		a > span {
+			color: var(--color-functional-background-white);
+			align-items: center;
+			display: flex;
+			width: 100%;
+			padding-right: 18px;
+			justify-content: space-between;
+			text-transform: uppercase !important;
+		}
+
+		a {
+			font-size: 16px;
+		}
+
+		&:hover {
+			background-color: var(--color-accent-sky-blue);
+		}
+	}
+
+	.ant-menu-item:not(:last-child) {
+		margin: 0 !important;
+	}
+}

@@ -1,0 +1,26 @@
+.acuvue-update-phone-otp-verification-page {
+	padding-bottom: 80px;
+	margin-top: 40px;
+	width: 100%;
+	background-image: url("/images/gray-circles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.content-wrapper {
+		max-width: 435px;
+		margin: 0 auto;
+		padding: 0 20px;
+
+		.update-mobile-number-title {
+			width: 100%;
+			margin-bottom: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}
+
+.wide-screen .acuvue-update-phone-otp-verification-page {
+	margin-top: 20px;
+}

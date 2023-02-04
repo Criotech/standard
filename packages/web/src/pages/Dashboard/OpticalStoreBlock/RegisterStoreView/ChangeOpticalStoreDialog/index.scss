@@ -1,0 +1,16 @@
+.acuvue-change-optical-store-dialog {
+	.change-optical-store-detail-list {
+		padding-top: 16px;
+
+		.change-optical-store-dialog-line {
+			margin: 0;
+			font-weight: 500;
+		}
+	}
+
+	&.wide {
+		h1 {
+			font-size: 28px !important;
+		}
+	}
+}

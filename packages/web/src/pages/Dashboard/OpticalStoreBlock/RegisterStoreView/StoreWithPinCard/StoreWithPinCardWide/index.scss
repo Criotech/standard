@@ -1,0 +1,38 @@
+.acuvue-store-with-pin-card-wide {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+
+	&.highlighted {
+		background-color: var(--color-functional-extra-light-grey);
+	}
+
+	.store-name-and-distance {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+
+		.store-distance {
+			color: var(--color-functional-dark-grey);
+			margin: 0;
+		}
+	}
+
+	.store-name-address-wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		width: 100%;
+
+		.store-address-wrapper {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			gap: 16px;
+		}
+
+		.select-store-button-in-list {
+			margin-right: 16px;
+		}
+	}
+}

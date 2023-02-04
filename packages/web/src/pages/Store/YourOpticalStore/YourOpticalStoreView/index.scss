@@ -1,0 +1,71 @@
+.your-optical-store {
+	margin: 10px;
+
+	.store-info {
+		display: flex;
+
+		& > div {
+			margin-left: 15px;
+		}
+
+		.optical-store-icon {
+			width: 60px;
+			height: 60px;
+			margin-top: 10px;
+		}
+
+		.store-address {
+			width: 80%;
+		}
+
+		h2 {
+			font-size: 20px;
+			margin: 0;
+			color: var(--color-functional-soft-black);
+		}
+	}
+
+	.store-opening-hours {
+		width: 60%;
+		display: inline-block;
+	}
+
+	.opening-hour-label,
+	.telephone-label {
+		font-size: 10px;
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+
+	.opening-hours,
+	.telephone {
+		color: var(--color-functional-dark-grey);
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	.store-telephone {
+		float: right;
+		text-align: left;
+		width: 40%;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+
+	.store-delivery {
+		display: flex;
+
+		img {
+			color: var(--color-brand-blue-1);
+			height: 12px;
+		}
+
+		.eligible-for-filter {
+			font-size: 12px;
+			font-weight: 400;
+			padding-left: 5px;
+		}
+	}
+}

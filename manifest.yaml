@@ -1,0 +1,242 @@
+common:
+    changes: 1
+    pipelineType: node
+    workspaceSetup: false
+    applicationsDetails:
+        name: myacuvue-th-web
+        projectAccount: asx-ndgs
+        vpcxAccount: itx-aup
+        jenkinsKey: tawd-dev
+        aws:
+            region: ap-southeast-1
+    npm:
+        dockerImage: "jnj.artifactrepo.jnj.com/jpm/node:14"
+        memoryLimit: 2048
+    artifactory:
+        target: tawd-generic-snapshot
+    buildAnnouncements:
+        enabled: true
+        destinations:
+            teams-notifications:
+                type: teams
+                # APAC Commercial Tech > Monitoring
+                channelUrl: https://jnj.webhook.office.com/webhookb2/b459b600-21d6-4331-9565-e2205dcb0827@3ac94b33-9135-4821-9502-eafda6592a35/IncomingWebhook/8dbb930c2182431eb935e837d30b1bf7/fc23ddf2-fdd1-4969-8686-ca9e8ccffb9d
+                format: buildstate
+                startEnabled: false
+                successEnabled: false
+                unstableEnabled: false
+                failureEnabled: true
+
+    buildAnalysis:
+        enabled: false
+    dependencyAnalysis:
+        enabled: false
+        type: npm
+        devResults:
+            low:
+            moderate:
+                UNSTABLE: null
+            high:
+                UNSTABLE: null
+            critical:
+                UNSTABLE: 0
+        prodResults:
+            low:
+                UNSTABLE: null
+            moderate:
+                UNSTABLE: null
+            high:
+                UNSTABLE: null
+                FAILURE: null
+            critical:
+                UNSTABLE: 0
+                FAILURE: 0
+    staticAnalysis:
+        enabled: false
+        type: multi
+        stages:
+            sonar:
+                enabled: true
+                type: sonar
+                directory: project
+                sonarSetupScript: _scm_jenkins/sonarSetup.groovy
+                destinationBranch: master
+                shortLivedAnalysis: false
+                longLivedAnalysis: false
+                shortLivedBuildResults:
+                    BLOCKER:
+                        FAILURE: 0
+                    CRITICAL:
+                        FAILURE: 181
+                    IGNORE:
+                        MAJOR: true
+                        MINOR: true
+                        INFO: true
+                    QUALITY_GATE:
+                        ERROR: FAILURE
+                        WARN: UNSTABLE
+                longLivedBuildResults:
+                    BLOCKER:
+                        FAILURE: 0
+                    CRITICAL:
+                        FAILURE: 181
+                    IGNORE:
+                        MAJOR: true
+                        MINOR: true
+                        INFO: true
+                    QUALITY_GATE:
+                        ERROR: UNSTABLE
+                        WARN: SUCCESS
+            checkmarx:
+                enabled: false
+                type: cx
+                projectRepo: https://sourcecode.jnj.com/projects/ASX-NDGS/repos/myacuvue_thailand_web/browse
+                locationPathExclude: "dist"
+
+    customSetup:
+        enabled: false
+        type: script
+        script: project/_scm_jenkins/install.groovy
+    unitTest:
+        enabled: false
+        type: script
+        script: project/_scm_jenkins/unitTest.groovy
+    lint:
+        enabled: false
+        type: script
+        script: project/_scm_jenkins/lint.groovy
+    release:
+        enabled: false
+    versionCalculation:
+        enabled: true
+        type: script
+        script: project/_scm_jenkins/versionCalculation.groovy
+        confirmVersion: false
+    package:
+        enabled: false
+        type: zip
+        name: myacuvue-th-web
+        dir: project
+        include:
+            - packages/web/build/**
+        versionPackageName: true
+        versionFileUpdates:
+            - type: "node-package"
+    publish:
+        enabled: false
+        type: artifactory-upload
+        filePattern: myacuvue-th-web*.zip
+    resolveArtifacts:
+        enabled: false
+        type: multi
+        parallel: false
+        stages:
+            checkArtifact:
+                enabled: true
+                type: script
+                script: project/_scm_jenkins/checkArtifact.groovy
+            downloadArtifact:
+                enabled: true
+                type: artifactory
+                artifactPath: tawd-generic-snapshot
+                artifactPattern: myacuvue-th-web-${version}.zip
+                destination: "downloads"
+            unzipArtifact:
+                enabled: true
+                type: script
+                script: project/_scm_jenkins/unzipArtifact.groovy
+    deploy:
+        enabled: false
+        type: multi
+        parallel: false
+        stages:
+            s3Upload:
+                enabled: true
+                type: script
+                script: project/_scm_jenkins/s3Upload.groovy
+            IaC:
+                enabled: true
+                type: iac
+                jenkinsUrl: "https://iac-jenkins.cloudx.jnj.com"
+                pipelineLibraryBranch: feature/awslocalexec
+                jobName: "IaC"
+                approvalOverride: true
+                vpcxAccount: "itx-aup"
+                jenkinsCredentialsId: "sourcecode-bitbucket"
+                workspace: project
+                tfVersion: "1.0"
+                tfParameters:
+                    - name: apps_name
+                      value: myacuvue-th-web
+
+environments:
+    PREDEV:
+        customSetup:
+            enabled: true
+        unitTest:
+            enabled: true
+        lint:
+            enabled: true
+        dependencyAnalysis:
+            enabled: false
+        buildAnnouncements:
+            enabled: false
+        staticAnalysis:
+            enabled: true
+            stages:
+                sonar:
+                    shortLivedAnalysis: true
+                    longLivedAnalysis: false
+        # for IAC development only
+        package:
+            enabled: false
+        publish:
+            enabled: false
+        resolveArtifacts:
+            enabled: false
+        deploy:
+            enabled: false
+    BUILD:
+        customSetup:
+            enabled: true
+        unitTest:
+            enabled: true
+        lint:
+            enabled: true
+        dependencyAnalysis:
+            enabled: false
+        release:
+            enabled: true
+            type: "auto"
+            confirmVersion: false
+            updateChangelog: false
+            useVTagName: true
+            branchToRelease: "master"
+            releaseDestination: "develop"
+            merge: true
+            subDirectory: ""
+        staticAnalysis:
+            enabled: true
+            stages:
+                sonar:
+                    shortLivedAnalysis: false
+                    longLivedAnalysis: true
+        package:
+            enabled: true
+        publish:
+            enabled: true
+    DEV:
+        resolveArtifacts:
+            enabled: true
+        deploy:
+            enabled: true
+    STAGING:
+        resolveArtifacts:
+            enabled: true
+        deploy:
+            enabled: true
+    PROD:
+        resolveArtifacts:
+            enabled: true
+        deploy:
+            enabled: true

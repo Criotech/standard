@@ -1,0 +1,16 @@
+.home-page {
+	overflow-x: hidden;
+	margin-bottom: 100px;
+
+	.ant-divider {
+		border-top: 8px solid var(--color-functional-extra-light-grey);
+	}
+
+	.points-block,
+	.greeting,
+	.register-block,
+	.store-block,
+	.coupon-block {
+		margin: 10px 15px 0 15px;
+	}
+}

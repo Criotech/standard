@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style id="myacuvue-style"></style>
+		<style>
+			.attr a {
+				display: inline;
+				color: #003087;
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="api"></div>
+		<script>
+			function makePasswordToggler(password) {
+				const toggler = document.createElement("span");
+				toggler.className = "eye-slash";
+				var id = password.id + "toggler";
+				toggler.setAttribute("id", id);
+
+				queryAll(".attrEntry")[1].appendChild(toggler);
+
+				function toggle() {
+					if (password.type === "password") {
+						password.type = "text";
+						toggler.className = "eye";
+					} else {
+						password.type = "password";
+						toggler.className = "eye-slash";
+					}
+				}
+				toggler.onclick = toggle;
+			}
+
+			function setUpPasswordTogglers() {
+				var passwordInputs = document.querySelectorAll(
+					"input[type=password]"
+				);
+				let passwordInputContainer = queryAll(".attrEntry")[0];
+				for (var i = 0; i < passwordInputs.length; i++) {
+					makePasswordToggler(passwordInputs[i]);
+				}
+			}
+
+			function navigateToSignIn() {
+				const urlParams = new URLSearchParams(location.search);
+				const url = new URL(urlParams.get("redirect_uri"));
+
+				location.href = url.origin + "/sign-in";
+			}
+
+			function circleAndCheckMarkScaffold(elementId, spanText) {
+				const parentFlexDiv = createElement("DIV");
+				parentFlexDiv.setAttribute("class", "parentFlex");
+				const circleDiv = createElement("DIV");
+				circleDiv.setAttribute("class", "circle");
+				circleDiv.className += " grey-background";
+				circleDiv.id = elementId;
+				const checkMarkDiv = createElement("DIV");
+				checkMarkDiv.setAttribute("class", "checkmark");
+				const paragraphSpan = createElement("span");
+				paragraphSpan.innerHTML = spanText;
+				parentFlexDiv.appendChild(circleDiv);
+				parentFlexDiv.appendChild(paragraphSpan);
+				circleDiv.appendChild(checkMarkDiv);
+				query("#passwordValidationDiv").appendChild(parentFlexDiv);
+			}
+
+			function validatePassword() {
+				let passwordString = query("#newPassword").value;
+				let hasMinimumLength = false;
+				let hasSmallLetter = false;
+				let hasCapitalLetter = false;
+				let hasOneNumber = false;
+				const oneCapitalLetterRegex = new RegExp("[A-Z]");
+				const oneSmallLetterRegex = new RegExp("[a-z]");
+				const oneNumberRegex = new RegExp("[0-9]");
+				if (passwordString.length < 8) {
+					document
+						.querySelector("#minimum-eight-character-div")
+						.classList.add("grey-background");
+					hasMinimumLength = false;
+				} else {
+					document
+						.querySelector("#minimum-eight-character-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#minimum-eight-character-div")
+						.classList.add("green-background");
+					hasMinimumLength = true;
+				}
+				if (!oneCapitalLetterRegex.test(passwordString)) {
+					document
+						.querySelector("#include-one-capital-letter-div")
+						.classList.add("grey-background");
+					hasCapitalLetter = false;
+				} else {
+					document
+						.querySelector("#include-one-capital-letter-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#include-one-capital-letter-div")
+						.classList.add("green-background");
+					hasCapitalLetter = true;
+				}
+				if (!oneSmallLetterRegex.test(passwordString)) {
+					document
+						.querySelector("#include-one-small-letter-div")
+						.classList.add("grey-background");
+					hasSmallLetter = false;
+				} else {
+					document
+						.querySelector("#include-one-small-letter-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#include-one-small-letter-div")
+						.classList.add("green-background");
+					hasSmallLetter = true;
+				}
+				if (!oneNumberRegex.test(passwordString)) {
+					document
+						.querySelector("#include-one-number-div")
+						.classList.add("grey-background");
+					hasOneNumber = false;
+				} else {
+					document
+						.querySelector("#include-one-number-div")
+						.classList.remove("grey-background");
+					document
+						.querySelector("#include-one-number-div")
+						.classList.add("green-background");
+					hasOneNumber = true;
+				}
+			}
+
+			var isSignUpChangesApplied = false;
+			var pages = {
+				SIGN_UP: {
+					identifier: function () {
+						const passwordInput = query("#newPassword");
+						const emailInput = query("#email");
+
+						const serverErrorMessage = query(
+							"#claimVerificationServerError"
+						);
+
+						return (
+							passwordInput &&
+							passwordInput.style.display !== "none" &&
+							emailInput &&
+							emailInput.style.display !== "none" &&
+							serverErrorMessage &&
+							serverErrorMessage.style.display === "none" &&
+							!isSignUpChangesApplied
+						);
+					},
+					applyChanges: function () {
+						pageView();
+						registerFormEvent("sign_up");
+
+						isSignUpChangesApplied = true;
+
+						query(".heading h1").innerHTML = "Create Account";
+						query("label#newPassword_label").innerHTML =
+							"Create password";
+						query(".attr ul").className =
+							"create-account-fields-wrapper";
+						query("#email").placeholder = "Enter email address";
+						query("#newPassword").placeholder = "Enter password";
+						document.addEventListener(
+							"invalid",
+							(function () {
+								return function (e) {
+									e.preventDefault();
+									query("#newPassword").focus();
+								};
+							})(),
+							true
+						);
+						query("#email").title = "";
+						query("#newPassword").title = "";
+
+						setUpPasswordTogglers();
+
+						const acknowlegementParagraph = getAppendedElement(
+							"p",
+							"acknowlegement-message space-for-button",
+							"The email you have provided above will be your user login."
+						);
+
+						const attributeVerification = query(
+							"#attributeVerification"
+						);
+
+						const attributeList = query("#attributeList");
+
+						attributeList.insertAdjacentElement(
+							"afterend",
+							acknowlegementParagraph
+						);
+
+						let passwordValidationDiv = createElement("DIV");
+						passwordValidationDiv.setAttribute(
+							"id",
+							"passwordValidationDiv"
+						);
+
+						passwordValidationDiv.classList.add("space-for-button");
+						let passwordMustHaveSpan = createElement("SPAN");
+						passwordMustHaveSpan.classList.add("space-for-title");
+						passwordMustHaveSpan.classList.add(
+							"password-matrix-title"
+						);
+						passwordValidationDiv.appendChild(passwordMustHaveSpan);
+						let passwordMustHaveText = createNode("Password must:");
+						passwordMustHaveSpan.appendChild(passwordMustHaveText);
+						query("#attributeList").appendChild(
+							passwordValidationDiv
+						);
+
+						circleAndCheckMarkScaffold(
+							"minimum-eight-character-div",
+							"Have at least 8 characters"
+						);
+						circleAndCheckMarkScaffold(
+							"include-one-capital-letter-div",
+							"Include at least one uppercase alphabet"
+						);
+						circleAndCheckMarkScaffold(
+							"include-one-small-letter-div",
+							"Include at least one lowercase alphabet"
+						);
+						circleAndCheckMarkScaffold(
+							"include-one-number-div",
+							"Include at least a number"
+						);
+
+						document.addEventListener("keyup", validatePassword);
+
+						const inputErrors = queryAll(".error.itemLevel");
+						inputErrors[0].classList.add("error-message");
+						query("#email").insertAdjacentElement(
+							"afterend",
+							inputErrors[0]
+						);
+
+						inputErrors[1].classList.add("error-message");
+						query("#newPassword").insertAdjacentElement(
+							"afterend",
+							inputErrors[1]
+						);
+
+						function displayServerErrorMessage(e) {
+							const serverErrorMessage = query(
+								"#claimVerificationServerError"
+							);
+							serverErrorMessage.setAttribute(
+								"class",
+								"error-message"
+							);
+
+							show(serverErrorMessage);
+							const emailInput = query("#email");
+							emailInput.insertAdjacentElement(
+								"afterend",
+								serverErrorMessage
+							);
+						}
+
+						query("#continue").addEventListener(
+							"click",
+							displayServerErrorMessage
+						);
+
+						document.addEventListener("keypress", function (e) {
+							if (e.key === "Enter") {
+								e.preventDefault();
+								displayServerErrorMessage(e);
+							}
+						});
+						query("#email_label").innerHTML = "Email";
+					},
+				},
+
+				EMAIL_REGISTERED_ERROR: {
+					identifier: function () {
+						const passwordInput = query("#newPassword");
+						const emailInput = query("#email");
+
+						const serverErrorMessage = query(
+							"#claimVerificationServerError"
+						);
+
+						return (
+							passwordInput &&
+							passwordInput.style.display !== "none" &&
+							emailInput &&
+							emailInput.style.display !== "none" &&
+							serverErrorMessage &&
+							serverErrorMessage.style.display !== "none"
+						);
+					},
+					applyChanges: function () {
+						const serverErrorMessage = query(
+							"#claimVerificationServerError"
+						);
+
+						serverErrorMessage.innerHTML =
+							'This email is registered with an account that already exists. <a onclick="navigateToSignIn();">Click here</a> to sign-in.';
+					},
+				},
+			};
+		</script>
+		<script id="myacuvue-script"></script>
+	</body>
+</html>

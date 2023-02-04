@@ -1,0 +1,36 @@
+.update-mobile-number {
+	padding-bottom: 80px;
+	margin-top: 40px;
+	width: 100%;
+	background-image: url("/images/gray-circles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.content-wrapper {
+		max-width: 435px;
+		margin: 0 auto;
+		padding: 0 20px;
+
+		.update-mobile-number-title {
+			width: 100%;
+			margin-bottom: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.content-title {
+			margin: 30px 0;
+		}
+
+		.body-texts {
+			font-size: 14px;
+			line-height: 19px;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.wide-screen .update-mobile-number {
+	margin-top: 48px;
+}

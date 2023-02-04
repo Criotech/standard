@@ -1,0 +1,19 @@
+.snackbar-success {
+	.ant-message-notice-content {
+		background-color: var(--color-semantic-success-green-1);
+		color: var(--color-functional-soft-black);
+		border-radius: 8px;
+	}
+}
+
+.snackbar-warn {
+	.ant-message-notice-content {
+		background-color: var(--color-semantic-error-red-1);
+		color: var(--color-functional-soft-black);
+		border-radius: 8px;
+	}
+
+	.ant-message-warning .anticon {
+		color: var(--color-semantic-error-red-2);
+	}
+}

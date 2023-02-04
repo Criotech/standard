@@ -1,0 +1,19 @@
+.acuvue-membership-block-points-available {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+
+	.acuvue-membership-block-points {
+		font-size: 28px;
+		color: var(--color-brand-blue-1);
+		line-height: 37px;
+	}
+
+	.acuvue-membership-block-points-label {
+		font-size: 12px;
+		color: var(--color-functional-dark-grey);
+		text-transform: uppercase;
+		line-height: 15px;
+	}
+}

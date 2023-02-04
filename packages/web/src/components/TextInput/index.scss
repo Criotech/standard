@@ -1,0 +1,56 @@
+.acuvue-text-input.ant-form-item {
+	.ant-form-item-label label {
+		color: var(--color-brand-blue-1);
+	}
+
+	.ant-input {
+		color: var(--color-functional-soft-black);
+		border-width: 0 0 2px;
+		background-color: transparent;
+		font-weight: 400;
+
+		&:enabled {
+			border-color: var(--color-brand-blue-1);
+		}
+
+		&:active,
+		&:focus {
+			border-color: var(--color-brand-blue-2);
+			box-shadow: none;
+		}
+
+		&:disabled {
+			color: var(--color-semantic-disabled-grey-3);
+			border-color: var(--color-semantic-disabled-grey-2);
+			background-color: transparent;
+		}
+
+		&:hover {
+			border-right-width: 0 !important;
+		}
+
+		&::placeholder {
+			color: var(--color-functional-light-grey);
+			opacity: 1;
+		}
+	}
+
+	.ant-input-group-addon {
+		background-color: transparent;
+		border-width: 0;
+		color: var(--color-functional-soft-black);
+
+		.ant-form-item-has-error {
+			color: var(--color-functional-soft-black);
+		}
+	}
+
+	&.ant-form-item-has-error .ant-input {
+		border-color: var(--color-semantic-error-red-2);
+	}
+
+	.ant-form-item-explain.ant-form-item-explain-error {
+		color: var(--color-semantic-error-red-3);
+		font-weight: 400;
+	}
+}

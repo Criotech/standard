@@ -1,0 +1,25 @@
+.legal-footnote {
+	word-wrap: normal;
+	font-size: 10px;
+	line-height: 15px;
+	font-weight: 400;
+	color: #c0c7d0;
+	text-align: left;
+	width: 100%;
+	padding: 40px 5% 0;
+
+	span {
+		max-width: var(--content-max-width);
+		display: block;
+		margin: 0 auto;
+
+		p {
+			margin: 0;
+		}
+	}
+}
+
+.wide-screen .legal-footnote {
+	text-align: center;
+	padding: 40px 0 0;
+}

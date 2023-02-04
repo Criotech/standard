@@ -1,0 +1,46 @@
+.about-my-acuvue {
+	text-align: center;
+
+	.acuvue-logo-icon,
+	.about-acuvue-description,
+	.about-acuvue-buttons,
+	.acuvue-copyright {
+		padding: 10px 10px 0 15px;
+	}
+
+	.acuvue-logo-icon {
+		text-align: center;
+	}
+
+	.about-acuvue-description {
+		text-align: left;
+	}
+
+	.about-acuvue-buttons {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 25px auto;
+
+		.how-to-earn-points-button {
+			width: 172px;
+			height: 32px;
+			font-size: 12px;
+		}
+
+		.member-benefits-button {
+			width: 172px;
+			height: 32px;
+			font-size: 12px;
+			margin-left: 8px;
+		}
+	}
+
+	.acuvue-copyright {
+		p {
+			text-align: left;
+		}
+
+		margin: 15px 0 77px;
+	}
+}

@@ -1,0 +1,67 @@
+.acuvue-desktop-search-input {
+	display: flex;
+	width: 150px;
+	flex-direction: row-reverse;
+	align-items: center;
+	height: 32px;
+
+	.ant-input {
+		padding: 0 11px;
+
+		&::placeholder {
+			color: var(--color-functional-light-grey);
+			opacity: 1;
+		}
+	}
+
+	.ant-input:focus {
+		box-shadow: none;
+	}
+
+	.anticon-search {
+		height: 23px;
+		padding-top: 3px;
+		font-size: 14px;
+		color: var(--color-brand-blue-1);
+	}
+
+	.search-default {
+		border-bottom: 0;
+	}
+
+	.input-default {
+		visibility: hidden;
+		border: 0;
+		transition: all 0.5s ease-in-out;
+		width: 0;
+	}
+
+	.search-border {
+		border-bottom-color: #d3d3d3;
+		border-bottom-width: 1px !important;
+		border-bottom-style: solid;
+	}
+
+	.input-expand {
+		visibility: visible;
+		border: 0;
+		border-radius: 0;
+		border-bottom-color: #d3d3d3;
+		border-bottom-width: 1px !important;
+		border-bottom-style: solid;
+		transition: visibility 0.5s ease-in-out;
+		transition: width 0.5s ease-in-out;
+		width: 100%;
+
+		&:hover {
+			border-bottom-color: #d3d3d3;
+		}
+	}
+
+	.search-color {
+		color: var(--color-accent-sky-blue);
+		border-bottom-color: #d3d3d3;
+		border-bottom-width: 1px !important;
+		border-bottom-style: solid;
+	}
+}

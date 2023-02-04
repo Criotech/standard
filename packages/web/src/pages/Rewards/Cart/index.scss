@@ -1,0 +1,26 @@
+.cart-page {
+	width: 100vw;
+	overflow: hidden;
+
+	.available-points-container {
+		margin: 15px;
+
+		.available-points {
+			color: #003087;
+			font-size: 16px;
+			margin-top: 20px;
+		}
+	}
+
+	main {
+		margin-bottom: 100px;
+	}
+
+	.expiry-point-message {
+		font-size: 14px;
+	}
+
+	.thicker {
+		border-top: 8px solid #ebeced;
+	}
+}

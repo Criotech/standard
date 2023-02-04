@@ -1,0 +1,26 @@
+.checkboxes-wrapper {
+	padding: 9px 0;
+
+	.title {
+		margin-bottom: 23px;
+	}
+
+	.market-preference-checkboxes {
+		display: flex;
+		align-items: flex-end;
+		gap: 26px 33px;
+		flex-wrap: wrap;
+
+		.checkbox {
+			width: 147px;
+
+			span {
+				padding-right: 0;
+			}
+
+			&.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+				margin-left: 0;
+			}
+		}
+	}
+}

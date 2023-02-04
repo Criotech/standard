@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-Black.otf") format("opentype");
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-BlackItalic.otf") format("opentype");
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-Bold.otf") format("opentype");
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-BoldItalic.otf") format("opentype");
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-Medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-MediumItalic.otf") format("opentype");
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noe Display";
+	src: url("./NoeDisplay-RegularItalic.otf") format("opentype");
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	font-display: swap;
+}

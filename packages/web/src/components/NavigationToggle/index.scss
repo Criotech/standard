@@ -1,0 +1,24 @@
+.navigation-toggle {
+	.ant-tabs-nav-list {
+		width: 100%;
+		border-radius: 25px !important;
+	}
+
+	.ant-tabs-tab-btn {
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+	.ant-tabs-tab {
+		width: 50%;
+		display: block;
+		flex: 1;
+		text-align: center;
+		margin: 4px 0 4px 0;
+		padding: 7px 10px 7px 10px;
+
+		&.ant-tabs-tab-active {
+			border-radius: 25px !important;
+		}
+	}
+}

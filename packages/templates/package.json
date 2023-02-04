@@ -1,0 +1,33 @@
+{
+  "name": "@myacuvue_thailand_web/templates",
+  "description": "MyAcuvue Thailand Services",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "https://sourcecode.jnj.com/scm/asx-ndgs/myacuvue_thailand_web.git",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "yarn ts-node src",
+    "start_templates:th": "yarn http-server --port 4000 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/mshp",
+    "start_templates:au": "yarn http-server --port 8080 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/scdf",
+    "start_templates:tw": "yarn http-server --port 4002 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/ngyu",
+    "start_templates:hk": "yarn http-server --port 4003 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/afmt",
+    "start_templates:sg": "yarn http-server --port 4004 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/zulw",
+    "start_templates:my": "yarn http-server --port 4005 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/pvaq",
+    "start_templates:nz": "yarn http-server --port 4006 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/bkpc",
+    "start_templates:in": "yarn http-server --port 8080 --cors --ssl --cert ./local-ssl/cert.pem --key ./local-ssl/cert.key ../web/public/xiam-templates/yzbn",
+    "test": "yarn jest --watchAll=false --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "http-server": "^14.1.1",
+    "jest": "26.6.0",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^10.7.0",
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}

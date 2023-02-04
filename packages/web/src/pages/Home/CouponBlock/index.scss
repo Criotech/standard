@@ -1,0 +1,25 @@
+.coupon-block {
+	.apply-coupon-form {
+		display: flex;
+	}
+
+	.coupon-apply-button {
+		width: 28%;
+		margin: 20px;
+		float: right;
+	}
+
+	.coupon-input {
+		width: 60%;
+		display: inline-block;
+
+		.ant-form-item-label > label {
+			font-weight: 500;
+		}
+	}
+}
+
+.redeem-coupon-error-message {
+	min-width: 200px;
+	text-align: center;
+}

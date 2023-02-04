@@ -1,0 +1,36 @@
+.acuvue-radio {
+	.ant-form-item-label {
+		label {
+			color: var(--color-brand-blue-1);
+			font-weight: 500;
+			font-size: 14px;
+		}
+	}
+
+	.ant-radio-wrapper {
+		.ant-radio-checked .ant-radio-inner {
+			border-color: var(--color-brand-blue-2);
+
+			&::after {
+				background: var(--color-brand-blue-2);
+			}
+		}
+
+		:not(.ant-radio-checked) .ant-radio-inner {
+			border-color: var(--color-brand-blue-1);
+
+			&::after {
+				background: var(--color-brand-blue-1);
+			}
+		}
+
+		.ant-radio-disabled .ant-radio-inner {
+			border-color: var(--color-semantic-disabled-grey-2) !important;
+			background-color: var(--color-functional-background-white);
+
+			&::after {
+				background: var(--color-semantic-disabled-grey-2);
+			}
+		}
+	}
+}

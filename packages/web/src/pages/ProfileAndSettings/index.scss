@@ -1,0 +1,53 @@
+.profile-and-settings-page {
+	margin-bottom: 100px;
+
+	.profile-container {
+		padding: 0 16px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 30px 0;
+
+		.details-wrapper {
+			display: flex;
+
+			.user-details {
+				margin-left: 10px;
+
+				.full-name {
+					font-size: 20px;
+					color: var(--color-brand-blue-1);
+					font-weight: 500;
+				}
+
+				.link-to-profile-details {
+					font-size: 12px;
+					display: block;
+					text-decoration: underline;
+					color: var(--color-brand-blue-2);
+				}
+			}
+		}
+	}
+
+	.settings {
+		margin: 15px;
+
+		h2 {
+			font-size: 16px;
+			font-weight: 500;
+			margin-bottom: 0;
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+		.settings-item-wrapper {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 16px;
+		}
+	}
+}

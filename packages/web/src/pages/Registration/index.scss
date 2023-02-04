@@ -1,0 +1,36 @@
+.registration-page {
+	h1 {
+		color: var(--color-brand-blue-1);
+	}
+
+	header {
+		position: relative;
+		display: block;
+
+		h1 {
+			margin: 32px 0 32px 21px;
+		}
+
+		.header-image {
+			height: 219px;
+
+			.ant-image {
+				height: 100%;
+
+				img {
+					object-fit: cover;
+				}
+			}
+		}
+
+		.language-toggle {
+			position: absolute;
+			top: 12px;
+			right: 15px;
+		}
+	}
+
+	.registration-form {
+		margin: 0 24px 48px 24px;
+	}
+}

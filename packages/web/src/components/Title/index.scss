@@ -1,0 +1,55 @@
+.acuvue-title {
+	width: auto;
+	display: grid;
+	align-items: center;
+	text-align: center;
+
+	.title-text-wrapper {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		grid-column: 1;
+		grid-row: 1;
+		width: auto;
+		align-items: center;
+	}
+
+	.title-sub {
+		display: block;
+		font-size: 14px;
+		font-family: var(--font-family-root);
+		font-weight: 500;
+		line-height: 1;
+		color: var(--color-brand-blue-1);
+	}
+
+	.heading {
+		line-height: 1;
+		color: var(--color-brand-blue-1);
+		margin: 5px 0 0 0;
+	}
+
+	img {
+		grid-column: 1;
+		grid-row: 1;
+		width: 100%;
+		display: none;
+	}
+}
+
+.wide-screen .acuvue-title {
+	width: max-content;
+
+	.title-text-wrapper {
+		width: max-content;
+	}
+
+	.title-sub {
+		margin-right: 45px;
+	}
+
+	img {
+		display: block;
+		height: 140px;
+	}
+}

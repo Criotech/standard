@@ -1,0 +1,9 @@
+.optical-store-block {
+	background-color: var(--color-functional-background-white);
+	max-width: var(--content-max-width);
+	margin: 0 16px;
+}
+
+.wide-screen .optical-store-block {
+	margin: auto;
+}

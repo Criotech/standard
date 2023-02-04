@@ -1,0 +1,161 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/icons/RewardsIcon/index.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/icons/RewardsIcon</a> index.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>4/4</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>2/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>4/4</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import Icon from "@ant-design/icons";
+import { FC } from "react";
+&nbsp;
+const RewardsSvg: FC&lt;{}&gt; = (props) =&gt; (
+	&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}&gt;
+		&lt;path d="M14.086 13.419c-.605 0-.922.577-.922 1.239v.032c0 .677.374 1.269.95 1.269.607 0 .923-.594.923-1.242v-.027c0-.679-.375-1.271-.951-1.271z" /&gt;
+		&lt;path d="M8.836 9.554v-.03c0-.678-.374-1.269-.951-1.269-.6 0-.922.577-.922 1.239v.029c0 .677.375 1.269.951 1.269.605-.002.922-.59.922-1.238z" /&gt;
+		&lt;path d="M24 9.6V4.8a2.407 2.407 0 00-2.4-2.4H2.4A2.4 2.4 0 00.012 4.8L0 19.2a2.407 2.407 0 002.4 2.4h19.2a2.407 2.407 0 002.4-2.4v-4.8a2.4 2.4 0 110-4.8zm-18.555.09v-.169a2.457 2.457 0 012.329-2.578h.137a2.427 2.427 0 012.441 2.412v.169a2.464 2.464 0 01-2.345 2.578h-.121A2.427 2.427 0 015.445 9.69zm2.3 7.546a.678.678 0 01-.678-.676.81.81 0 01.159-.462l6.445-8.826a.729.729 0 01.591-.3.675.675 0 01.678.675.717.717 0 01-.158.462l-6.446 8.827a.735.735 0 01-.595.303zm8.81-2.579v.033a2.464 2.464 0 01-2.346 2.578h-.119a2.427 2.427 0 01-2.441-2.412V14.69a2.457 2.457 0 012.329-2.578h.136a2.427 2.427 0 012.441 2.412c0 .043-.001.089-.004.136z" /&gt;
+	&lt;/svg&gt;
+);
+&nbsp;
+export enum IconSize {
+	MINI = "12px",
+	SMALL = "16px",
+	MEDIUM = "24px",
+}
+&nbsp;
+export type Props = {
+	color?: string;
+	size?: IconSize;
+};
+&nbsp;
+const RewardsIcon: FC&lt;Props&gt; = ({ size = IconSize.MEDIUM, color }: Props) =&gt; (
+	&lt;Icon component={RewardsSvg} style={{ fontSize: size, color }} /&gt;
+);
+&nbsp;
+export default RewardsIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Mon Dec 19 2022 13:05:41 GMT+0100 (West Africa Standard Time)
+            </div>
+        </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

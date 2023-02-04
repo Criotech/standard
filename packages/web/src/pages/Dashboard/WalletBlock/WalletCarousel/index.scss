@@ -1,0 +1,28 @@
+.reward-wallet-carousel {
+	background: var(--color-functional-background-white);
+	width: 279px;
+
+	.slick-slide > div {
+		display: flex;
+		justify-content: center;
+	}
+
+	.left-arrow-button,
+	.right-arrow-button {
+		position: absolute;
+		z-index: 1;
+		top: 54px;
+	}
+
+	.right-arrow-button {
+		right: 10px;
+	}
+
+	.left-arrow-button {
+		left: 10px;
+	}
+}
+
+.wide-screen .reward-wallet-carousel {
+	width: 555px;
+}

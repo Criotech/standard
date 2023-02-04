@@ -1,0 +1,45 @@
+.acuvue-toggle.ant-tabs {
+	.ant-tabs-nav::before {
+		border: 0;
+	}
+
+	.ant-tabs-nav-list {
+		border-radius: 16px;
+		background: var(--color-functional-background-cool-pale-grey);
+		padding: 0;
+		margin: 0;
+	}
+
+	.ant-tabs-tab {
+		margin: 4px 0 4px 0;
+		padding: 7px 10px 7px 10px;
+		font-size: 10px;
+		font-weight: 400;
+
+		&:first-child {
+			margin-left: 4px;
+		}
+
+		&:nth-last-child(2) {
+			margin-right: 4px;
+		}
+
+		&.ant-tabs-tab-active {
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+			border-radius: 12px;
+			background: var(--color-functional-background-white);
+
+			.ant-tabs-tab-btn {
+				color: var(--color-brand-blue-2);
+			}
+		}
+
+		.ant-tabs-tab-btn {
+			font-weight: 600;
+		}
+	}
+
+	.ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+		display: none;
+	}
+}

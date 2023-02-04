@@ -1,0 +1,70 @@
+.acuvue-feedback-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0 2px 6px #00000026;
+	border-radius: 7.45px 7.45px 7.45px 7.45px;
+	gap: 4px;
+	padding: 12px;
+	flex: 1;
+
+	.top-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.store-name-label,
+	.date-of-purchase-label {
+		font-weight: var(--font-weight-medium);
+		font-size: 11px;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.middle-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact-lenses-score-block,
+	.store-score-block {
+		width: 200px;
+	}
+
+	.horizontal-divider {
+		margin-top: 8.3px;
+		margin-bottom: 8.3px;
+		width: 100%;
+	}
+
+	.vertical-divider {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		min-height: auto;
+	}
+
+	.submit-feedback-button {
+		width: 124px;
+		font-size: 10px;
+		height: 27px;
+	}
+}
+
+.wide-screen .acuvue-feedback-form {
+	.top-section {
+		flex-direction: row;
+	}
+
+	.middle-section {
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: unset;
+	}
+
+	.store-name-label,
+	.date-of-purchase-label {
+		margin-left: 20px;
+		width: 50%;
+	}
+}

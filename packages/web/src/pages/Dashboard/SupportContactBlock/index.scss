@@ -1,0 +1,56 @@
+.support-contact-block {
+	background-color: #f8f9fc;
+	box-shadow: 0 2px 6px #00000026;
+	margin: 24px 16px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	.member-support-title-with-icon {
+		font-weight: 500;
+		font-size: 16px;
+		flex: 1;
+
+		.member-support-title {
+			margin-left: 10px;
+			color: var(--color-brand-blue-1);
+		}
+	}
+
+	.contact-information {
+		font-size: 14px;
+		font-weight: 500;
+		color: var(--color-functional-soft-black);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.phone-and-email-block {
+		display: flex;
+		flex-direction: column;
+		margin-right: 0;
+	}
+}
+
+.wide-screen .support-contact-block {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 21px;
+	margin: 43px auto;
+	max-width: var(--content-max-width);
+
+	.member-support-title {
+		font-size: 18px;
+	}
+
+	.contact-information {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.phone-and-email-block {
+		margin-right: 24px;
+	}
+}

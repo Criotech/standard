@@ -1,0 +1,24 @@
+.transaction-list {
+	h2 {
+		font-size: 14px;
+		color: var(--color-functional-soft-black);
+	}
+
+	.points {
+		width: 20%;
+		float: right;
+		text-align: right;
+	}
+
+	.transaction-title {
+		width: 60%;
+		float: left;
+		text-align: left;
+		margin-bottom: 12px;
+	}
+
+	.ant-divider {
+		border-top: 2px solid var(--color-functional-extra-light-grey);
+		margin: 12px 0;
+	}
+}

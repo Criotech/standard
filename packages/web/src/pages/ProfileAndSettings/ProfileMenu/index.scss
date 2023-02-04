@@ -1,0 +1,41 @@
+.profile-menu {
+	.menu-item-link {
+		padding: 16px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		transition: all 0.3s ease-in-out;
+		background-color: var(--color-functional-background-white);
+		color: var(--color-functional-soft-black);
+
+		&:hover {
+			background-color: var(--color-functional-background-cool-pale-grey);
+		}
+
+		.menu-item-name {
+			flex-grow: 2;
+			display: flex;
+
+			.acuvue-icon,
+			.points-icon,
+			.rewards-icon {
+				width: 24px;
+				height: 24px;
+				object-fit: cover;
+			}
+
+			.menu {
+				font-size: 14px;
+				color: var(--color-functional-dark-grey);
+			}
+
+			& > div {
+				margin-left: 26px;
+				flex-grow: 2;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+.confirm-store-selection {
+	margin-bottom: 100px;
+
+	main {
+		padding: 20px 12px 0;
+	}
+
+	h1 {
+		margin-left: -2px;
+	}
+
+	.store-cell {
+		margin: 0;
+
+		h2 {
+			font-size: 20px;
+			margin-block-end: -4px;
+		}
+
+		.store-address {
+			font-size: 14px;
+			width: 80%;
+		}
+	}
+
+	.action-buttons-container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		button {
+			width: 85%;
+			margin-bottom: 18px;
+		}
+	}
+
+	.store-details {
+		margin-bottom: 24px;
+	}
+
+	.store-confirmation-message {
+		margin-top: 24px;
+	}
+}

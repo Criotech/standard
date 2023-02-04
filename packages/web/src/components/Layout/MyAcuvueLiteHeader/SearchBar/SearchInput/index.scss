@@ -1,0 +1,26 @@
+.acuvue-search-input {
+	.ant-input {
+		color: var(--color-functional-background-white);
+		border: 1px solid var(--color-functional-background-white);
+		background-color: #3d3d47;
+		font-weight: 400;
+		padding: 15px;
+		font-size: 18px;
+		height: 44px;
+
+		&:enabled {
+			border: 1px solid var(--color-functional-background-white);
+		}
+
+		&:active,
+		&:focus {
+			border-color: var(--color-functional-background-white);
+			box-shadow: none;
+		}
+
+		&::placeholder {
+			color: #858585;
+			opacity: 1;
+		}
+	}
+}

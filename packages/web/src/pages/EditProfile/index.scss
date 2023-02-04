@@ -1,0 +1,30 @@
+.acuvue-edit-profile {
+	width: 100%;
+	background-image: url("../../images/gray-circles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.content-wrapper {
+		max-width: 416px;
+		margin: 0 auto 48px auto;
+		padding: 0 16px;
+
+		.edit-profile-title {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 40px 0;
+		}
+	}
+}
+
+.wide-screen .acuvue-edit-profile {
+	.content-wrapper {
+		margin: 0 auto 97px auto;
+
+		.edit-profile-title {
+			margin-top: 48px;
+			margin-bottom: 60px;
+		}
+	}
+}

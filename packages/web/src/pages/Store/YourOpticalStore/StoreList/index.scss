@@ -1,0 +1,10 @@
+.store-list {
+	.store-cell-wrapper {
+		display: block;
+		cursor: pointer;
+
+		&.active {
+			background-color: var(--color-functional-extra-light-grey);
+		}
+	}
+}

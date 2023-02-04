@@ -1,0 +1,81 @@
+.member-card {
+	box-shadow: 0 4px 8px 0 rgba(180, 180, 180, 0.2),
+		0 6px 20px 0 rgba(180, 180, 180, 0.19);
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 20px;
+	padding-bottom: 32px;
+
+	.member-id-card {
+		display: flex;
+		height: auto;
+
+		.member-details {
+			border-radius: 20px 20px 0 0;
+			padding: 24px 16px;
+			background: linear-gradient(
+				45deg,
+				var(--color-functional-background-white),
+				#cad3e4
+			);
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+
+			.member-name-and-id {
+				word-break: break-all;
+			}
+
+			.picture-and-name-container {
+				display: flex;
+				flex-direction: row;
+			}
+		}
+
+		.member-image {
+			height: 48px;
+			width: 48px;
+			border-radius: 50%;
+		}
+
+		h1 {
+			font-size: 20px;
+			margin: 0 0 0 12px;
+		}
+
+		h2 {
+			font-size: 16px;
+			margin-left: 12px;
+			margin-bottom: 0;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.badge-image {
+			img {
+				height: 40px;
+				width: 40px;
+			}
+		}
+
+		.avatar-icon {
+			margin-top: 5px;
+		}
+	}
+
+	.scan-code {
+		text-align: center;
+
+		.member-id-value {
+			margin-bottom: 0;
+		}
+	}
+
+	.scan-description {
+		font-weight: 500;
+		color: var(--color-brand-blue-1);
+		margin: 10px;
+	}
+}

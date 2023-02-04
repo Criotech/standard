@@ -1,0 +1,33 @@
+.registration-form {
+	input:focus {
+		box-shadow: none;
+	}
+
+	.ant-picker {
+		&.acuvue-datepicker {
+			width: 100%;
+
+			&.ant-picker-focused {
+				box-shadow: none !important;
+			}
+		}
+	}
+
+	label {
+		color: var(--color-brand-blue-1);
+	}
+
+	button {
+		width: 100%;
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+
+	.acuvue-checkbox {
+		margin-bottom: 24px;
+	}
+
+	.ant-form-item-explain.ant-form-item-explain-error {
+		color: var(--color-semantic-error-red-3);
+	}
+}

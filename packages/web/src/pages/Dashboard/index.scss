@@ -1,0 +1,21 @@
+.acuvue-dashboard {
+	background-image: url("../../images/gray-circles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.greetings-wrapper,
+	.invitation-block-wrapper,
+	.privileges-block-wrapper {
+		max-width: var(--content-max-width);
+		margin: 43px 16px 24px 16px;
+		padding: 0;
+	}
+}
+
+.wide-screen .acuvue-dashboard {
+	.privileges-block-wrapper,
+	.invitation-block-wrapper,
+	.greetings-wrapper {
+		margin: 43px auto;
+	}
+}

@@ -1,0 +1,61 @@
+.mobile-registration-page {
+	padding-bottom: 80px;
+	margin-top: 40px;
+	width: 100%;
+	background-image: url("/images/gray-circles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.content-wrapper {
+		max-width: 416px;
+		margin: 0 auto;
+		padding: 0 20px;
+
+		.mobile-number-registration {
+			width: 100%;
+			margin-bottom: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.heading {
+				margin: 5px 0 0 0;
+			}
+		}
+
+		.content-title {
+			margin: 40px 0;
+			font-weight: 500;
+			font-size: 20px;
+		}
+
+		.already-a-member {
+			margin-top: 24px;
+			display: flex;
+			flex-direction: row;
+			font-size: 14px;
+			font-weight: 400;
+
+			.already-member-text {
+				margin-right: 6px;
+			}
+
+			.sign-in-text {
+				text-decoration: underline;
+				color: var(--color-brand-blue-1);
+				margin-left: 12px;
+				font-weight: 400;
+				background: transparent;
+			}
+		}
+
+		.reward-amount-value {
+			font-weight: 550;
+			margin-left: 5px;
+		}
+	}
+}
+
+.wide-screen .mobile-registration-page {
+	margin-top: 48px;
+}

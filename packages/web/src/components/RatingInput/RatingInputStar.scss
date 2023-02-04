@@ -1,0 +1,12 @@
+.acuvue-rating-input-star {
+	font-size: 22px;
+	color: #8f8f8f;
+
+	&.disabled {
+		color: #d2d2d2;
+	}
+
+	&.highlighted {
+		color: #1aa6bd;
+	}
+}

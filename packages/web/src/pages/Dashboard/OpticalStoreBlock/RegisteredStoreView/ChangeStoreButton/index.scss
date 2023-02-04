@@ -1,0 +1,16 @@
+.change-store-button {
+	display: flex;
+	align-items: center;
+	background: transparent;
+	border: none;
+	padding: 0;
+	color: var(--color-brand-blue-1);
+	font-size: 14px;
+	gap: 6px;
+	cursor: pointer;
+	width: fit-content;
+
+	.text {
+		text-decoration: underline;
+	}
+}

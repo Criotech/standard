@@ -1,0 +1,37 @@
+.acuvue-maintenance-banner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 50px;
+	padding: 20px;
+	height: 100vh;
+	text-align: center;
+	background-color: #18355d;
+	color: #ffffff;
+
+	.acuvue-logo {
+		width: 146px;
+		height: 40px;
+		object-fit: contain;
+		margin-left: auto;
+	}
+
+	.maintenance-approval-text {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+	}
+
+	.alert-icon:before {
+		content: "!";
+		height: 100px;
+		font-size: 62px;
+		width: 100px;
+		display: block;
+		border: 5px solid #ffffff;
+		border-radius: 50%;
+		text-align: center;
+		color: #ffffff;
+		float: left;
+	}
+}

@@ -1,0 +1,37 @@
+.acuvue-lite-wide-header {
+	width: 100%;
+	background: var(--color-functional-background-white);
+	border-bottom: 2px solid #e0e2e5;
+
+	.desktop-header-wrapper {
+		display: flex;
+		align-items: center;
+		max-width: var(--content-max-width);
+		margin: 0 auto;
+		padding: 0 20px;
+		justify-content: space-evenly;
+	}
+
+	.desktop-membership {
+		width: max-content;
+		margin-left: 10px;
+	}
+
+	.wide-header-user-menu {
+		float: right;
+		position: absolute;
+		top: 65px;
+		z-index: 10;
+		margin-left: 5px;
+		visibility: hidden;
+	}
+
+	.wide-header-dropdown {
+		position: relative;
+	}
+
+	.wide-header-dropdown:hover .wide-header-user-menu {
+		visibility: visible;
+		height: fit-content;
+	}
+}

@@ -1,0 +1,77 @@
+.acuvue-btn {
+	border-radius: 24px;
+	border-width: 2px;
+	border-style: solid;
+	font-weight: 500;
+
+	&.acuvue-btn-primary {
+		background: var(--color-brand-blue-1);
+		color: var(--color-functional-background-white);
+		border-color: var(--color-brand-blue-1);
+
+		&:disabled {
+			color: var(--color-semantic-disabled-grey-2);
+			background: var(--color-semantic-disabled-grey-1);
+			border-color: var(--color-semantic-disabled-grey-1);
+		}
+
+		&:hover,
+		&:focus {
+			&:not(:disabled) {
+				background: var(--color-brand-blue-2);
+				color: var(--color-functional-background-white);
+				border-color: var(--color-brand-blue-2);
+			}
+		}
+	}
+
+	&.acuvue-btn-outline {
+		background: var(--color-functional-background-white);
+		color: var(--color-brand-blue-1);
+		border-color: var(--color-brand-blue-1);
+
+		&:disabled {
+			color: var(--color-semantic-disabled-grey-2);
+			background: var(--color-functional-background-white);
+			border-color: var(--color-semantic-disabled-grey-2);
+		}
+
+		&:hover,
+		&:focus {
+			&:not(:disabled) {
+				color: var(--color-brand-blue-2);
+				background: var(--color-functional-background-white);
+				border-color: var(--color-brand-blue-2);
+			}
+		}
+	}
+
+	&.acuvue-btn-no-outline {
+		background: var(--color-functional-background-white);
+		color: var(--color-brand-blue-1);
+		border: none;
+
+		&:disabled {
+			color: var(--color-semantic-disabled-grey-2);
+			background: var(--color-functional-background-white);
+		}
+
+		&:hover,
+		&:focus {
+			&:not(:disabled) {
+				color: var(--color-brand-blue-2);
+				background: var(--color-functional-background-white);
+			}
+		}
+	}
+
+	&.acuvue-btn-small {
+		height: 32px;
+		font-size: 12px;
+	}
+
+	&.acuvue-btn-medium {
+		height: 48px;
+		font-size: 14px;
+	}
+}

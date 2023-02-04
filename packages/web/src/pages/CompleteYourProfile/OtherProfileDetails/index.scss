@@ -1,0 +1,21 @@
+.other-profile-details {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	.parental-consent-checkbox {
+		margin-bottom: 10px;
+	}
+
+	.marketing-preference {
+		.sub-title {
+			margin-top: 12px;
+			margin-bottom: 12px;
+		}
+
+		.choice-title {
+			font-weight: 500;
+			margin-bottom: 12px;
+		}
+	}
+}

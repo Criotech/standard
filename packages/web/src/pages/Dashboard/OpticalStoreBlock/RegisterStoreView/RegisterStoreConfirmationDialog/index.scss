@@ -1,0 +1,34 @@
+.register-store-confirmation {
+	.register-confirmation-address-section {
+		padding-top: 16px;
+	}
+
+	.ant-modal-content {
+		width: 100%;
+	}
+
+	.divider {
+		margin: 15px 0;
+	}
+
+	.btns-container {
+		&.block {
+			display: flex !important;
+			flex-direction: column-reverse;
+		}
+	}
+
+	&.wide {
+		h1 {
+			font-size: 28px !important;
+		}
+
+		.btns-container {
+			&.block {
+				display: flex !important;
+				gap: 16px;
+				flex-direction: unset;
+			}
+		}
+	}
+}

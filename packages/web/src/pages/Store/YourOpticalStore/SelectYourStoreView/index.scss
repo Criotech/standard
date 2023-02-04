@@ -1,0 +1,21 @@
+.select-your-store {
+	margin: 15px;
+
+	h1 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	.select-item {
+		margin-bottom: 20px;
+
+		label {
+			font-size: 14px;
+			color: var(--color-brand-blue-1);
+			font-weight: 500;
+		}
+	}
+}

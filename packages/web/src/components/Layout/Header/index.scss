@@ -1,0 +1,32 @@
+.header-wrapper {
+	.ant-affix {
+		z-index: 100;
+	}
+
+	.header-content {
+		background-color: var(--color-functional-background-cool-pale-grey);
+		z-index: 100;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.header-text {
+		display: flex;
+		align-items: center;
+		color: var(--color-brand-blue-1);
+		font-size: 16px;
+		font-weight: var(--font-weight-medium);
+		height: 100%;
+		margin: 0;
+	}
+
+	.header-icon {
+		display: flex;
+		min-width: 24px;
+		min-height: 24px;
+	}
+}

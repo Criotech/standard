@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign In</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style id="myacuvue-style">/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+:root {
+	--font-family-graphik: "Graphik", "Helvetica Neue", "Helvetica", "Arial",
+		sans-serif;
+	--font-family-noe-display: "Noe Display", Georgia, serif;
+	--font-family-noto-sans-tc: "Noto Sans TC", "Helvetica Neue", "Helvetica",
+		"Arial", sans-serif;
+}
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	font-family: var(--font-family-graphik);
+	margin: 0;
+}
+
+main {
+	display: block;
+}
+
+h1 {
+	font-size: 1em;
+	margin: 0.67em 0;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+a {
+	background-color: transparent;
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+img {
+	border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+	-webkit-appearance: button;
+}
+
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+textarea {
+	overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+details {
+	display: block;
+}
+
+summary {
+	display: list-item;
+}
+
+template {
+	display: none;
+}
+
+[hidden] {
+	display: none;
+}
+
+/*------------------------- Common Styling -------------------------------*/
+
+#api {
+	max-width: 416px;
+	margin: 0 auto;
+	padding: 24px 24px 0 24px;
+}
+
+a {
+	font-size: 14px;
+	color: #003087 !important;
+}
+
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	padding: 4px 12px;
+	font-size: 14px;
+	border-width: 0 0 2px;
+	font-weight: 400;
+	border-color: #003087;
+	outline: none;
+}
+
+input::placeholder {
+	opacity: 30%;
+}
+
+input:active,
+input:focus {
+	border-color: #0055f2;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	border-radius: 24px;
+	border-width: 2px;
+	border-style: solid;
+	font-weight: 500;
+	height: 48px;
+	width: 100%;
+	background: #003087;
+	color: #ffffff;
+	border-color: #003087;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+button:disabled {
+	color: #c2c7cc;
+	background: #ebeced;
+	border-color: #ebeced;
+}
+
+button:hover,
+button:focus {
+	background: #0055f2;
+	color: #ffffff;
+	border-color: #0055f2;
+}
+
+/*------------sign-in popup -------------*/
+.heading {
+	color: #003087;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 37px;
+}
+
+.join-now {
+	font-size: 14px;
+	color: #2a3138;
+	margin: 0;
+	text-align: center;
+}
+
+.error-message {
+	font-size: 14px;
+	margin: 0;
+	color: #bf1506;
+}
+
+.error-message p {
+	margin: 0;
+}
+
+.new-password-error-message {
+	font-size: 14px;
+	color: #bf1506;
+}
+
+.entry {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.entry-item {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.entry-item label {
+	color: #003087;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+/*-------------change-password popup -------------*/
+.titleText {
+	color: #003087;
+	font-size: 28px;
+	margin: 0;
+}
+
+#current-err-id,
+#new-err-id {
+	font-size: 14px;
+	margin: 0;
+	color: #bf1506;
+}
+
+.attr a,
+#password_label + div,
+#newPassword_label + div {
+	display: none;
+}
+
+.attr ul {
+	list-style: none;
+	margin: auto;
+	padding-left: 0px;
+}
+
+.attrEntry {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.attrEntry > label {
+	color: #003087;
+}
+
+.attrEntry > input,
+.entry-item > input {
+	height: 32px;
+}
+
+/*------------ Reset Password (Verify Code) ------------*/
+#emailVerificationControl .buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	margin: 16px 0;
+}
+
+#emailVerificationControl .buttons button {
+	display: block;
+}
+
+button.myacuvue-button-outline {
+	background: #ffffff;
+	color: #003087;
+	border-color: #003087;
+}
+
+button.myacuvue-button-outline:disabled {
+	color: #c2c7cc;
+	background: #ffffff;
+	border-color: #c2c7cc;
+}
+
+button.myacuvue-button-outline:hover:not(:disabled),
+button.myacuvue-button-outline:focus:not(:disabled) {
+	color: #0055f2;
+	background: #ffffff;
+	border-color: #0055f2;
+}
+
+.subTitleText {
+	font-size: 14px;
+	color: #2a3138;
+}
+
+.circle {
+	position: relative;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	margin-right: 8px;
+}
+
+.checkmark {
+	position: absolute;
+	transform: rotate(45deg) translate(-50%, -50%);
+	left: 30%;
+	top: 42%;
+	height: 5px;
+	width: 2.4px;
+	border-bottom: 1.5px solid white;
+	border-right: 1.5px solid white;
+}
+
+.parentFlex {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.parentFlex > span {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.green-background {
+	background: #19a619;
+}
+
+.grey-background {
+	background: #c2c7cc;
+}
+
+.space-for-button {
+	margin-bottom: 30px;
+}
+
+.space-for-title {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 12px;
+	text-decoration: solid;
+}
+
+/*------------ Reset Password (Entering Password) ------------*/
+#attributeVerification .buttons {
+	display: flex;
+	flex-direction: row;
+	margin: 16px 0;
+}
+
+#emailVerificationControl_but_send_code {
+	margin-top: 30px;
+}
+
+#go-back-button-wrapper {
+	padding: 0 24px 24px 24px;
+	margin: 0 auto;
+	max-width: 416px;
+}
+
+/* -----------------  Reset Password (New Account error message -------------------*/
+
+.icon-error {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	position: relative;
+	box-sizing: content-box;
+	background-color: #d4382a;
+	margin-right: 8px;
+}
+
+.icon-error.warning .exclamation-line {
+	position: absolute;
+	width: 2px;
+	height: 6px;
+	left: 46%;
+	top: 3px;
+	border-radius: 1px;
+	background-color: #ffffff;
+}
+
+.icon-error.warning .exclamation-dot {
+	position: absolute;
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	left: 46%;
+	bottom: 3px;
+	background-color: #ffffff;
+}
+
+.text-color-red {
+	color: #bf1509;
+}
+
+.strong {
+	font-weight: 500;
+}
+
+.space-for-error-title {
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.claim-verification-server-error-paragraph {
+	font-size: 14px;
+	text-align: left;
+	line-height: 18px;
+	letter-spacing: 0px;
+	color: #bf1509;
+	opacity: 1;
+	font-weight: 400;
+}
+
+.acknowlegement-message,
+.password-matrix-title {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.create-account-fields-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.eye {
+	height: 24px;
+	width: 24px;
+	display: inline-flex;
+	position: absolute;
+	top: 26px;
+	right: 20px;
+	color: #003087;
+	background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' fill='%23003087' height='24' width='24'%3E%3Cpath d='M12 16.175Q13.95 16.175 15.312 14.812Q16.675 13.45 16.675 11.5Q16.675 9.55 15.312 8.188Q13.95 6.825 12 6.825Q10.05 6.825 8.688 8.188Q7.325 9.55 7.325 11.5Q7.325 13.45 8.688 14.812Q10.05 16.175 12 16.175ZM12 14.25Q10.85 14.25 10.05 13.45Q9.25 12.65 9.25 11.5Q9.25 10.35 10.05 9.55Q10.85 8.75 12 8.75Q13.15 8.75 13.95 9.55Q14.75 10.35 14.75 11.5Q14.75 12.65 13.95 13.45Q13.15 14.25 12 14.25ZM12 19.25Q8.2 19.25 5.113 17.137Q2.025 15.025 0.65 11.5Q2.025 7.975 5.113 5.862Q8.2 3.75 12 3.75Q15.8 3.75 18.888 5.862Q21.975 7.975 23.35 11.5Q21.975 15.025 18.888 17.137Q15.8 19.25 12 19.25ZM12 11.5Q12 11.5 12 11.5Q12 11.5 12 11.5Q12 11.5 12 11.5Q12 11.5 12 11.5Q12 11.5 12 11.5Q12 11.5 12 11.5Q12 11.5 12 11.5Q12 11.5 12 11.5ZM12 17.1Q14.875 17.1 17.3 15.588Q19.725 14.075 21 11.5Q19.725 8.925 17.3 7.412Q14.875 5.9 12 5.9Q9.125 5.9 6.7 7.412Q4.275 8.925 3 11.5Q4.275 14.075 6.7 15.588Q9.125 17.1 12 17.1Z'/%3E%3C/svg%3E%0A");
+}
+
+.eye-slash {
+	height: 24px;
+	width: 24px;
+	display: inline-flex;
+	position: absolute;
+	top: 26px;
+	right: 20px;
+	fill: #003087 !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23003087' viewBox='0 0 24 24'%3E%3Cpath d='M16.275 13.425 14.725 11.875Q14.925 10.475 13.95 9.525Q12.975 8.575 11.625 8.775L10.075 7.225Q10.375 7.075 10.925 6.95Q11.475 6.825 12 6.825Q13.975 6.825 15.325 8.175Q16.675 9.525 16.675 11.5Q16.675 12.025 16.575 12.512Q16.475 13 16.275 13.425ZM19.525 16.65 17.975 15.125Q18.925 14.4 19.7 13.512Q20.475 12.625 21 11.5Q19.725 8.925 17.338 7.412Q14.95 5.9 12 5.9Q11.275 5.9 10.538 6Q9.8 6.1 9.15 6.3L7.45 4.6Q8.475 4.175 9.625 3.962Q10.775 3.75 12 3.75Q15.875 3.75 18.938 5.9Q22 8.05 23.35 11.5Q22.775 13.025 21.8 14.337Q20.825 15.65 19.525 16.65ZM19.95 22.975 15.625 18.65Q14.85 18.95 13.938 19.1Q13.025 19.25 12 19.25Q8.125 19.25 5.05 17.1Q1.975 14.95 0.65 11.5Q1.175 10.15 1.988 8.987Q2.8 7.825 3.85 6.925L1.025 4.05L2.525 2.525L21.475 21.475ZM5.4 8.45Q4.675 9.075 4.05 9.837Q3.425 10.6 3 11.5Q4.275 14.075 6.663 15.588Q9.05 17.1 12 17.1Q12.475 17.1 12.988 17.038Q13.5 16.975 13.775 16.875L13.025 16.025Q12.825 16.1 12.55 16.138Q12.275 16.175 12 16.175Q10.025 16.175 8.675 14.825Q7.325 13.475 7.325 11.5Q7.325 11.25 7.363 10.975Q7.4 10.7 7.475 10.475ZM13.575 10.7Q13.575 10.7 13.575 10.7Q13.575 10.7 13.575 10.7Q13.575 10.7 13.575 10.7Q13.575 10.7 13.575 10.7Q13.575 10.7 13.575 10.7Q13.575 10.7 13.575 10.7ZM9.6 12.65Q9.6 12.65 9.6 12.65Q9.6 12.65 9.6 12.65Q9.6 12.65 9.6 12.65Q9.6 12.65 9.6 12.65Q9.6 12.65 9.6 12.65Q9.6 12.65 9.6 12.65Z'/%3E%3C/svg%3E%0A");
+}
+
+#loadingmodal-container {
+	position: fixed;
+	background-image: none;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 0px 0px;
+	box-shadow: 0px 0px 0px 0px;
+	z-index: 1002;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+</style>
+	</head>
+
+	<body>
+		<div id="api"></div>
+		<script>
+			function createTogglerOnClickHandler(toggler, passwordInput) {
+				function onClickHandler() {
+					if (passwordInput.type === "password") {
+						passwordInput.type = "text";
+						toggler.className = "eye";
+					} else {
+						passwordInput.type = "password";
+						toggler.className = "eye-slash";
+					}
+				}
+				return onClickHandler;
+			}
+
+			function createVisibilityToggler(passwordInput) {
+				const toggler = document.createElement("span");
+				toggler.className = "eye-slash";
+				const togglerId = passwordInput.id + "-toggler";
+				toggler.setAttribute("id", togglerId);
+				return toggler;
+			}
+
+			function setUpPasswordTogglers() {
+				const passwordInputs = document.querySelectorAll(
+					"input[type=password]"
+				);
+				for (let i = 0; i < passwordInputs.length; i++) {
+					const passwordInput = passwordInputs[i];
+					const toggler = createVisibilityToggler(passwordInput);
+					toggler.onclick = createTogglerOnClickHandler(
+						toggler,
+						passwordInput
+					);
+					passwordInput.insertAdjacentElement("afterend", toggler);
+				}
+			}
+
+			var pages = {
+				SIGNIN_ERROR: {
+					identifier: function () {
+						const serverErrorValue =
+							query(".error.pageLevel p").innerHTML;
+						return (
+							query("#signInName") &&
+							query("#password") &&
+							query("#forgotPassword") &&
+							serverErrorValue &&
+							query(".error.pageLevel").style.display === "block"
+						);
+					},
+					applyChanges: function () {
+						const serverErrorValue =
+							query(".error.pageLevel p").innerHTML;
+						let serverError = getAppendedElement(
+							"span",
+							"error-message server-error",
+							serverErrorValue
+						);
+						if (serverError) {
+							serverError.remove();
+						}
+
+						query("#signInName").insertAdjacentElement(
+							"afterend",
+							serverError
+						);
+					},
+				},
+				SIGNIN: {
+					identifier: function () {
+						return (
+							query("#signInName") &&
+							query("#password") &&
+							query("#forgotPassword") &&
+							!query(".error.pageLevel p").innerHTML
+						);
+					},
+					applyChanges: function () {
+						pageView();
+						registerFormEvent("sign_in");
+
+						let joinNowText =
+							"<p class='join-now'> Not a MyACUVUE<sup>®</sup> Member? Why not sign-up today! </p>";
+						let joinNowTextHtml = stringToHTML(joinNowText);
+						let alreadyAMemberText =
+							"<p class='join-now'> If you already have the MyACUVUE<sup>®</sup> app, sign in with the same email you registered with in the app.</p>";
+						let alreadyAMemberTextHtml =
+							stringToHTML(alreadyAMemberText);
+
+						query(".entry").appendChild(joinNowTextHtml);
+						query(".entry").appendChild(alreadyAMemberTextHtml);
+
+						let labelNode = document.querySelectorAll("label");
+						labelNode[0].textContent = "Email";
+
+						let inputNodes =
+							document.querySelectorAll(".entry-item");
+
+						let emailInput = query("#signInName");
+						emailInput.placeholder = "Enter email address";
+
+						let passwordInput = query("#password");
+						passwordInput.placeholder = "Enter Password";
+
+						document.addEventListener(
+							"invalid",
+							(function () {
+								return function (e) {
+									e.preventDefault();
+									query("#signInName").focus();
+								};
+							})(),
+							true
+						);
+
+						let forgotPasswordText = query("#forgotPassword");
+						forgotPasswordText.textContent = "Forgot Password?";
+
+						let forgotPasswordLink = query(".working");
+						forgotPasswordLink.appendChild(forgotPasswordText);
+
+						const formInputs = document.querySelectorAll("input");
+						const formInputsErrors = queryAll(".error.itemLevel");
+
+						for (let i = 0; i < formInputs.length; i++) {
+							const inputElement = formInputs[i];
+							const inputErrorElement = formInputsErrors[i];
+
+							inputErrorElement.classList.add("error-message");
+
+							inputElement.insertAdjacentElement(
+								"afterend",
+								inputErrorElement
+							);
+						}
+
+						query(".working").setAttribute(
+							"class",
+							"forgot-password"
+						);
+
+						hide(query(".error.pageLevel"));
+
+						query("#next").addEventListener("click", (e) => {
+							if (query(".server-error")) {
+								query(".server-error").remove();
+							}
+						});
+
+						setUpPasswordTogglers();
+
+						query("#signInName").title = "";
+					},
+				},
+			};
+		</script>
+		<script id="myacuvue-script">function query(selector) {
+	return document.querySelector(selector);
+}
+
+function queryAll(selector) {
+	return document.querySelectorAll(selector);
+}
+
+function createElement(elementTag) {
+	return document.createElement(elementTag);
+}
+
+function createNode(text) {
+	return document.createTextNode(text);
+}
+
+function disableElement(elementId) {
+	return (query(elementId).disabled = true);
+}
+
+function getAppendedElement(elementTag, className, text) {
+	let element = createElement(elementTag);
+	element.className = className;
+	let elementText = createNode(text);
+	element.appendChild(elementText);
+	return element;
+}
+
+function show(element) {
+	element.style.position = "";
+}
+
+function hide(element) {
+	element.style.position = "absolute";
+	element.style.left = "-9999em";
+}
+
+var stringToHTML = function (str) {
+	var parser = new DOMParser();
+	var doc = parser.parseFromString(str, "text/html");
+	return doc.body;
+};
+
+function showLoading() {
+	const loader = query("#loadingmodal-container");
+	loader.style.display = "inline";
+}
+
+function hideLoading() {
+	const loader = query("#loadingmodal-container");
+	loader.style.display = "none";
+}
+
+window.pages = window.pages || {};
+
+const pageNames = Object.keys(window.pages || {});
+
+function getCurrentPage() {
+	return pageNames.find((pageName) => window.pages[pageName].identifier());
+}
+
+const state = {};
+
+function applyChangesToCurrentPage() {
+	const currentPage = getCurrentPage();
+	if (state.page !== currentPage) {
+		state.page = currentPage;
+		window.pages[currentPage].applyChanges();
+	}
+}
+
+function main() {
+	new MutationObserver(applyChangesToCurrentPage).observe(query("#api"), {
+		childList: true,
+		attributes: true,
+		characterData: false,
+		subtree: true,
+		attributeFilter: ["style"],
+	});
+
+	applyChangesToCurrentPage();
+}
+
+if (document.readyState !== "loading") {
+	main();
+} else {
+	document.addEventListener("DOMContentLoaded", main);
+}
+
+function isValidEmail(mail) {
+	return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail);
+}
+
+function isValidPassword(password) {
+	return /^((?=.*[a-z])(?=.*[A-Z])(?=.*\d))([A-Za-z\d@#$%^&*\-_+=[\]{}|\\:',?/`~&quot;();!]|\.(?!@)){8,16}$/.test(
+		password
+	);
+}
+
+// <!-- Google Tag Manager -->
+(function (w, d, s, l, i) {
+	w[l] = w[l] || [];
+	w[l].push({
+		"gtm.start": new Date().getTime(),
+		event: "gtm.js",
+	});
+	var f = d.getElementsByTagName(s)[0];
+	var j = d.createElement(s);
+	var dl = l !== "dataLayer" ? "&l=" + l : "";
+	j.async = true;
+	j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+	f.parentNode.insertBefore(j, f);
+})(window, document, "script", "dataLayer", "GTM-KBJZV5C");
+// <!-- End Google Tag Manager -->
+
+function pageView() {
+	var page_data = {
+		page_name: "",
+		page_referrer: document.referrer,
+		page_title: document.title,
+		page_path: document.location.pathname,
+		page_category: "",
+		user_login_state: "notSignedIn",
+	};
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({ page_data: null, user_data: null });
+	window.dataLayer.push({
+		event: "page_view",
+		page_data,
+		user_data: "not set",
+	});
+}
+
+/**
+ * @param name {FormType}
+ */
+function formView(name) {
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({ event_data: null });
+	window.dataLayer.push({
+		event: "form_view",
+		event_data: { name },
+	});
+}
+
+/**
+ * @param name {FormType}
+ */
+function formComplete(name) {
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({ event_data: null });
+	window.dataLayer.push({
+		event: "form_complete",
+		event_data: { name },
+		user_data: "not set",
+	});
+}
+
+/**
+ * @param name {FormType}
+ */
+function formStart(name) {
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({ event_data: null });
+	window.dataLayer.push({
+		event: "form_start",
+		event_data: { name },
+	});
+}
+
+/**
+ * @param name {FormType}
+ * @param error_message {string}
+ */
+function formError(name, error_message) {
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({ event_data: null });
+	window.dataLayer.push({
+		event: "form_error",
+		event_data: {
+			name,
+			error_message,
+		},
+	});
+}
+
+var formStartSent = false;
+/**
+ * @param name {FormType}
+ */
+function registerFormEvent(name) {
+	formView(name);
+	["click"].forEach(function (eventName) {
+		document.body.addEventListener(eventName, function (event) {
+			if (event.target.tagName === "BUTTON") {
+				const errors = document.querySelectorAll(".error-message");
+				if (errors.length > 0) {
+					errors.forEach(function (error) {
+						formError(name, error.innerText);
+					});
+				} else {
+					formComplete(name);
+				}
+			}
+		});
+	});
+
+	["change", "input", "click"].forEach(function (eventName) {
+		document.body.addEventListener(eventName, function (event) {
+			if (!formStartSent) {
+				formStartSent = true;
+				formStart(name);
+			}
+		});
+	});
+}
+</script>
+	</body>
+</html>

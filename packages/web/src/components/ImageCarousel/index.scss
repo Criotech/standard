@@ -1,0 +1,22 @@
+.image-carousel {
+	.image {
+		width: 100vw;
+		height: auto;
+		object-fit: contain;
+	}
+
+	.navigation-dots {
+		bottom: 10px;
+
+		li {
+			width: 10px !important;
+			height: 10px !important;
+			border-radius: 50%;
+
+			button {
+				height: 100%;
+				border-radius: 50%;
+			}
+		}
+	}
+}

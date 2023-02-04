@@ -1,0 +1,35 @@
+.user-menu-section {
+	background-color: #3d3d47;
+	font-size: 14px;
+	font-weight: 300;
+	width: 100%;
+
+	.link {
+		height: 48px;
+		padding: 16px;
+		color: var(--color-functional-background-white);
+		line-height: 18px;
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid #000000;
+
+		&:last-child {
+			border-bottom: none;
+		}
+
+		.exit-icon,
+		.member-icon {
+			margin-right: 4px;
+		}
+
+		.acuvue-logo {
+			width: 24px;
+			height: 24px;
+			margin-right: 4px;
+		}
+	}
+}
+
+.wide-screen .user-menu-section {
+	width: 214px;
+}

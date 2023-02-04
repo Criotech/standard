@@ -1,0 +1,74 @@
+.membership-card {
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 1) -10%,
+		var(--color-brand-blue-1) 250%
+	);
+	display: grid;
+	position: relative;
+
+	.circle-decoration-icon-wrapper {
+		grid-column: 1;
+		grid-row: 1;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+
+		.circle-decoration-icon {
+			height: 100%;
+
+			svg {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	.content-wrapper {
+		z-index: 1;
+		padding: 16px;
+		grid-column: 1;
+		grid-row: 1;
+
+		.title {
+			font-size: 14px;
+
+			.myacuvue-logo-img {
+				width: 24px;
+				height: 24px;
+				margin-right: 8px;
+			}
+
+			span {
+				color: var(--color-brand-blue-1);
+				font-weight: 500;
+			}
+		}
+
+		.description {
+			display: block;
+			margin-top: 24px;
+			font-size: 16px;
+			color: var(--color-brand-blue-1);
+			font-weight: 500;
+		}
+
+		.action-buttons-wrapper {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 24px;
+
+			.sign-in-btn,
+			.join-now-btn {
+				width: 100%;
+				height: 48px;
+				cursor: pointer;
+			}
+
+			.sign-in-btn {
+				margin-right: 16px;
+			}
+		}
+	}
+}

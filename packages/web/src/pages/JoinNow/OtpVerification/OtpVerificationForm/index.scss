@@ -1,0 +1,66 @@
+.acuvue-otp-verification-form {
+	padding-top: 40px;
+	margin: auto;
+	max-width: 344px;
+
+	.enter-otp {
+		font-weight: 500;
+		font-size: 20px;
+		text-align: left;
+		color: var(--color-brand-blue-1);
+		padding-bottom: 24px;
+	}
+
+	.otp-sent-text {
+		text-align: left;
+		color: var(--color-functional-soft-black);
+		font-size: 14px;
+
+		.phone {
+			font-weight: 500;
+		}
+	}
+
+	.otp-input {
+		margin: 0;
+		background-color: transparent;
+	}
+
+	.otp-timer-text {
+		color: var(--color-semantic-error-red-3);
+		font-size: 14px;
+		text-align: center;
+		margin: 0 0 32px 0;
+	}
+
+	.resend-otp {
+		text-align: left;
+		font-weight: 400;
+		font-size: 14px;
+		margin-bottom: 40px;
+
+		.resend-otp-button {
+			background-color: var(--color-functional-background-white);
+			color: var(--color-brand-blue-2);
+			border: none;
+			outline: none;
+			text-decoration: underline;
+
+			&:focus {
+				outline: none;
+				border: none;
+			}
+		}
+	}
+
+	.verify-and-goback-buttons {
+		width: 100%;
+		text-transform: uppercase;
+		display: block;
+		margin-top: 16px;
+	}
+}
+
+.wide-screen .acuvue-otp-verification-form {
+	max-width: 416px;
+}

@@ -1,0 +1,17 @@
+.acuvue-member-menu-dropdown-trigger {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	cursor: pointer;
+	padding: 20px 0;
+
+	.acuvue-logo {
+		width: 24px;
+		height: 24px;
+	}
+
+	.member-name {
+		font-weight: 500;
+		color: var(--color-brand-blue-1);
+	}
+}
